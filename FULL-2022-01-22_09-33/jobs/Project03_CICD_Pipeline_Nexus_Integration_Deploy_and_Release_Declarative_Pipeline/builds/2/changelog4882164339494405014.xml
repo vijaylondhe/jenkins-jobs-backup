@@ -1,0 +1,9 @@
+commit f208f08555110f820c65692dd43c9d5101318055
+tree 9b2b9bc87408a376d6eb4c5674c6bcefe1a6cc98
+parent a4bad307338475d6cdb5d3f7bf7182af6e67d5cd
+author vijaylondhe <31356198+vijaylondhe@users.noreply.github.com> 2022-01-19 18:46:04 +0530
+committer GitHub <noreply@github.com> 2022-01-19 18:46:04 +0530
+
+    fixed wrong nexus ip in snapshot repo section
+
+:100644 100644 5a021e5dcad3043fd1494be957e9204d5b114c41 f6312c65f6098f4fbffa05eca99cf07689ddfb34 M	pom.xml

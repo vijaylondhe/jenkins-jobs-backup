@@ -1,0 +1,395 @@
+Started by user [8mha:////4AWzJYB2O/WIuF8QyGgG/VmM2QY1L+5jpJa4X8Lmk+OvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile.jdp from git https://github.com/vijaylondhe/mavenreleaseprod1.git
+[8mha:////4GF1+P3HqBDDRiZh7Qrrenpj1ynFwcJvhhh50SwMYpsLAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4ExDy4r0GKldPaT/B21A50TOoq+VNyG5bfwpByRKxkwUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BTBqBgKl92c70TmC3hVA3VhSG2cyyQqj9pbXDxOhqYqAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[8mha:////4LxjiqyFPrPgS5XorukqFgCjOTJr939e+tD4/sN4OWLVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4E8n/pS4LrF5XFN9THeDvocWq1IbeljQs2DgFQtGtveBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4NyAZYoXy2fD1CH0BARsoNmPYd8zpOh3mdgRhV/7wd/UAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4DhrTPCqOsYscO5IFsvKfVmqGvoWnuDgiG4GYs4ayS9KAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Project03_CICD_Pipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/vijaylondhe/mavenreleaseprod1.git # timeout=10
+Fetching upstream changes from https://github.com/vijaylondhe/mavenreleaseprod1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://github.com/vijaylondhe/mavenreleaseprod1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision f208f08555110f820c65692dd43c9d5101318055 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f208f08555110f820c65692dd43c9d5101318055 # timeout=10
+Commit message: "fixed wrong nexus ip in snapshot repo section"
+ > git rev-list --no-walk a4bad307338475d6cdb5d3f7bf7182af6e67d5cd # timeout=10
+[8mha:////4Bwh7TI8ZL5TyCnt5QebuDyybyd9zP/p6eSaCnrfei3MAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4GECjbXoBKwF7Gbj2eghBFJiYcsjkLpvuDE1jbKRAS18AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4G4l+hsalvzKZvyD2eaeQt+TvUP3LLJgqvkeUOkylaIHAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4IiFNPdr/nYzUkC6f55YqmdMJeFOxO9mn85s2oPkkcXCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4MEYiIwsGh+T253utTnUCs2uw5X0YE4fl0S1tshgLhLTAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withCredentials
+Masking supported pattern matches of $NEXUS_CREDS or $NEXUS_CREDS_PSW
+[8mha:////4EpAhjdd47VHnjJ6B++vbjQDk9nuSicRWeKFVIfAvUecAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4HVsVTTjZjnIp4FENTa8MXYE2Xxdz/rNcB/cURaVb4XxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withEnv
+[8mha:////4GZdi/S+b0HmU99Sc2QDZE8yl+7ljeYaG0hTprG7nAR2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4MnKRquJVc2OujyGCO8LhkcigCKUvoznvDNCIeTTA5qiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4J0gwfnYLmXXI5IPvcUZ3W+SBPQxazafNCb7cYHYmsgJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4LJazp+p+XBYjVsGnWi6rI7Q9oat4KprQPAreNBFkGD9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] tool
+[8mha:////4B1gpBVM3TYVRj2Ieyr3XCKo3nbfVOQ0tSA+jkgVpUk2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN1TuT7W+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4EjM4fUPDhybt0WeMGncbfm7aWo0CiX6RTruumS6QavPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICNBQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AFE68tmvgAAAA==[0m[Pipeline] tool
+[8mha:////4K6EgvjKbHlpbQodc6+WKzKUP7AWuD4PEaYniBv10b4dAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wEF2tB/vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4J4BZi4h8/RPMa8GPa/2Dqxbw6CsjNXPABNwLyZaC6v1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AGMia70vgAAAA==[0m[Pipeline] }
+[8mha:////4HQxR9H+tN8ploKG5p5ni8LQ+YVR7LzhLYbhwZg5btRfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+/avVIvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IHHCauiUovWoPwlU0JoBYETYmnRUK9gEZMHaIl/1oo0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2zb3edZvQFthsLMwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4AjdLaQafSV9tt8NXzOhP1Y/wqOw/aFOei1RIzPOcHZ3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4Puqb4TjjvoJP8glWg9Sw1gEdXuH6Wu2xJ3wbjy1DEMYAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] stage
+[8mha:////4C7ydMj1/SZWPpqDgotYXZwCrvvxRdMAg73XS5sIYEstAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (clean & verify)
+[8mha:////4JYgOo33UTQM9X0i2PPmBGaSIM0lqgDn3h9wyN//jhxHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] tool
+[8mha:////4HXktqzwo4jY4GYC2Jjnw4MB662dW8ck+md7dDza5n6mAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHuV4Y5vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4MxegxkIh3FPegZRPg7Glp6yJDcxdZtLaMvUZLRPJQF+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+QhobpvgAAAA==[0m[Pipeline] tool
+[8mha:////4OZ6FVhC9S6faFCtbL8E0MbNePCYxUYreqO4dXDmay/4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/Rt53wvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4B8NskR+aecN1JwTJJl6crgDhvHvxfO40szmWhDbF4k0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKgMDYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhls8+2az7P6g31BR6TwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4NmKb2MmklRrHusrN77XB1TFw/Dy7MANmnMpdnK0ga2rAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] {
+[8mha:////4IF5u0/I/mcCApwTN9VuXUre10QcorE5oO3vSOlSe4xkAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] script
+[8mha:////4MkfRbSenlCUd/vnXUYOIQ3LvM87BlyvYeEXmw2sk56lAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] {
+[8mha:////4DZRy33k+p/aox60+7Rk/urKJEMo/w7X1lL5YeLmqcURAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $PASSWORD
+[8mha:////4O6kCvpzXMBMpSmXrZkjYB13YPM9UDv6sAwFUbsJ8oWZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] {
+[8mha:////4IcyB3068TQpY+aGmDUqIZ5HNxRMxgj2qwBRyq98BbkLAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] withMaven
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] using JDK installation java-8
+[withMaven] using Maven installation 'Maven3'
+[8mha:////4A6ZxG6h2FNzymsCo8q9KCvVXLrJ7vAh+v1mhFPaWIa7AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] {
+[8mha:////4O/ZwyRWIIhuCOUWj0Mo8+CxVimGW8TYMfUWAjXi9MkUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/W61xwvgAAAA==[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [PASSWORD, NEXUS_CREDS_PSW]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ mvn -Drevision=1.0.0-SNAPSHOT -Dserver.username=admin -Dserver.password=**** clean verify
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavend51a0c39/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavend51a0c39" 
+Apache Maven 3.8.4 (9b656c72d54e5bacbed989b64718c159fe39b537)
+Maven home: /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven3
+Java version: 1.8.0_221, vendor: Oracle Corporation, runtime: /var/lib/jenkins/tools/hudson.model.JDK/java-8/jre
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "5.4.0-1061-aws", arch: "amd64", family: "unix"
+[INFO] [jenkins-event-spy] Generate /var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavend51a0c39/maven-spy-20220119-131643-9237835367504456696944.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< io.learnk8s:knote-java >-----------------------
+[INFO] Building knote 7.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ knote-java ---
+[INFO] Deleting /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ knote-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ knote-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/classes
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ knote-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Project03_CICD_Pipeline/src/test/resources
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ knote-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/test-classes
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ knote-java ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.learnk8s.knote.KnoteJavaApplicationTests
+13:16:51.402 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class io.learnk8s.knote.KnoteJavaApplicationTests]
+13:16:51.413 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:16:51.424 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:16:51.465 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [io.learnk8s.knote.KnoteJavaApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:16:51.484 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [io.learnk8s.knote.KnoteJavaApplicationTests], using SpringBootContextLoader
+13:16:51.489 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: class path resource [io/learnk8s/knote/KnoteJavaApplicationTests-context.xml] does not exist
+13:16:51.490 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: class path resource [io/learnk8s/knote/KnoteJavaApplicationTestsContext.groovy] does not exist
+13:16:51.491 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:16:51.493 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: KnoteJavaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:16:51.572 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:16:51.731 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/classes/io/learnk8s/knote/KnoteJavaApplication.class]
+13:16:51.738 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration io.learnk8s.knote.KnoteJavaApplication for test class io.learnk8s.knote.KnoteJavaApplicationTests
+13:16:51.873 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [io.learnk8s.knote.KnoteJavaApplicationTests]: using defaults.
+13:16:51.875 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:16:51.900 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5e0826e7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32eff876, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@8dbdac1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6e20b53a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71809907, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3ce1e309, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6aba2b86, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@158da8e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@74e52303, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@47af7f3d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7c729a55, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bb9a3ff]
+13:16:51.903 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:16:51.904 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:16:51.906 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:16:51.907 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:16:51.908 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:16:51.909 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:16:51.916 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@52bf72b5 testClass = KnoteJavaApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@37afeb11 testClass = KnoteJavaApplicationTests, locations = '{}', classes = '{class io.learnk8s.knote.KnoteJavaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1e965684, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b088d51, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@528931cf, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2173f6d9], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+13:16:51.919 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:16:51.920 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:16:51.956 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2022-01-19 13:16:52.561  INFO 3538 --- [           main] i.l.knote.KnoteJavaApplicationTests      : Starting KnoteJavaApplicationTests on 66a459bff11c.mylabserver.com with PID 3538 (started by jenkins in /var/lib/jenkins/workspace/Project03_CICD_Pipeline)
+2022-01-19 13:16:52.565  INFO 3538 --- [           main] i.l.knote.KnoteJavaApplicationTests      : No active profile set, falling back to default profiles: default
+2022-01-19 13:16:54.683  INFO 3538 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-01-19 13:16:54.853  INFO 3538 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 163ms. Found 1 repository interfaces.
+2022-01-19 13:16:56.816  INFO 3538 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-19 13:16:56.910  INFO 3538 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_221]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_221]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_221]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar:na]
+	... 3 common frames omitted
+
+2022-01-19 13:16:58.874  INFO 3538 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-19 13:16:59.185  INFO 3538 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-19 13:17:00.256  INFO 3538 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-19 13:17:00.358  INFO 3538 --- [           main] i.l.knote.KnoteJavaApplicationTests      : Started KnoteJavaApplicationTests in 8.388 seconds (JVM running for 9.566)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.458 s - in io.learnk8s.knote.KnoteJavaApplicationTests
+2022-01-19 13:17:00.733  INFO 3538 --- [       Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ knote-java ---
+[INFO] Building jar: /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/knote-java-7.0.0-SNAPSHOT.jar
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.1.6.RELEASE:repackage (repackage) @ knote-java ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.301 s
+[INFO] Finished at: 2022-01-19T13:17:02Z
+[INFO] ------------------------------------------------------------------------
+[INFO] [jenkins-event-spy] Generated /var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavend51a0c39/maven-spy-20220119-131643-9237835367504456696944.log
+[8mha:////4HJ71+DtOIIOvT4Ju3VVxoLRNm952U7hGbTkhVh+mngWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+dgWTEvgAAAA==[0m[Pipeline] }
+[withMaven] artifactsPublisher - Archive artifact pom.xml under io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-SNAPSHOT.pom
+[withMaven] artifactsPublisher - Archive artifact target/knote-java-7.0.0-SNAPSHOT.jar under io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-SNAPSHOT.jar
+[withMaven] junitPublisher - Archive test results for Maven artifact io.learnk8s:knote-java:jar:7.0.0-SNAPSHOT generated by maven-surefire-plugin:test (default-test): target/surefire-reports/*.xml
+[withMaven] junitPublisher - Jenkins [8mha:////4Nm5gXETwH6OP1OvXcuumodfAejiqmKXHKvUIxDNgjg+AAAAwR+LCAAAAAAAAP9djEsKwjAUAJ8VPYArEW9QbHYuFBeigj+KIB4g1JC+Nr6E5NXPNbyGbjyEx/EOKu6czcxq7i9oBA/dvNoHS0lmKVijkvnFKW+QytSy6o9uj9HVPSOIFtA0ijTna6hX3jC01oU8SmEkabFlj6SHZw+dv93k5+8MftQigLP7RJthmjO7MBDihCUmhaISKfQyTKzXYo/BGXkRy1m6WqRbsdwRcjxmlll+UMQh3phKI70B4ncifskAAAA=[0mJUnit Attachments Plugin not found, can't publish test attachments.Recording test results
+[withMaven] Jenkins [8mha:////4BHMjIMqtEQulnsSyCsqK8onooTlt6HxVLSXHIZEJde8AAAAvB+LCAAAAAAAAP9djMEJwjAUQL8VHUBv4gbF5uZBKR5EsFqKUBcIbUjThJ+QpNqu4Rp6cQjHcQeV3nyX907v8YaRszCvmtJpjAqNTisW7TvDrBIoM+3ZMr4/45t5BRAkMFYMua9SGDZWeZikNb1QoihyknsrkK9bC7O/3bb3bwY9gwCgNd+YethU3hu3IuQqpIhqhlKgWxQi0paTUjijaEcOu+yYZDk5UyfDvKCIzIYn1XCBHwby8vjEAAAA[0mTask Scanner Plugin not found, don't display results of source code scanning for 'TODO' and 'FIXME' in pipeline screen.
+[withMaven] Publishers: Pipeline Graph Publisher: 21 ms, Generated Artifacts Publisher: 168 ms, Junit Publisher: 16 ms, Dependencies Fingerprint Publisher: 1 ms, Open Task Scanner Publisher: 1 ms
+[8mha:////4O4uvfooUIKO+mYwBo0EpqBK/DlfEQ+hxVRONKCqUGKtAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wApcP3Nb4AAAA=[0m[Pipeline] // withMaven
+[8mha:////4CVyMeNEDpKQ7xXXUM1ykRO0eOs9mls/C7hmuSBldAkpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBIkCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw+RDRRuvgAAAA==[0m[Pipeline] }
+[8mha:////4IiGHHzK3EL+mi8e74kBK2FMoGTO4VXLd8MyPr+7JXpiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpiGgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AG/DRYEvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4P6DoLP/kOy4EGkQto4CV204M6/P9w7D6cGdAf6wlhVdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP6CPQ1a+AAAA[0m[Pipeline] }
+[8mha:////4J4IVXjiBPAijMFTlgGVZ5ZGDoX+sNn99k05JMrnD2g0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpiGgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrQ659/QGYzdCnvgAAAA==[0m[Pipeline] // script
+[8mha:////4De4CHfTwsOHid4XgBS6fwuh5eAwEgeaO2GO1kW15UfZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBIkCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w+ei+jyvgAAAA==[0m[Pipeline] }
+[8mha:////4AKdlf+dEerpRUueaQbg9VF6jRl7jnq9DBFOQa4hO41RAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234A3Qm5dL4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4HuBukUF+dROgi/C3vut/SueF4ZcAINz1SbAD24DPelgAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISSEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4Dth+U1r4AAAA=[0m[Pipeline] }
+[8mha:////4MPRK8aeY7NEWDst6/DQEddFVQNfRL/lsRefLOPCED8ZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9cdesgvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CIsIOukqBnK+nykuOk/9N3oqJxYsOt3lv5K7pxPdKvwAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIHVCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcN9ma3edZvQGg+zYuwgAAAA==[0m[Pipeline] stage
+[8mha:////4AI2Jsrn+t1tRkZeKJe9ikQ95J1zKScBfTAIYxuXvwm4AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] { (deploy)
+[8mha:////4F1TS73cs5rIEANX+ruHZwc9FEDB+S8zILeoFt/ek/vDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN1+P256+AAAA[0m[Pipeline] tool
+[8mha:////4OmajpyovaSPQhXBRNp9fd3SKhE7NjpdGtczkJ6whyMNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5gZmtG+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4DCbU7Y9CN4RK7xJ2W6VaIn1d71e3Ef5lgJ5sDCxy3OoAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaVCVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUw+QVnvP1X7N9kogci+AAAA[0m[Pipeline] tool
+[8mha:////4JU7YH+khts94K5YS2iRQlpvz3c96utKOSciEv3BkRXtAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK3/dQ+vAEae6zjvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4OmgbFFoRiCVfPJQa8b5vdnr1de5BfUQAZnYmuqhYonzAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQkIMiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+9mO8zP4gOx5MylwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4KLklP7WGgvTxvjPaSXIVbvKYYNBUhIbd2kwKFYY6GDQAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] {
+[8mha:////4FTYql/p5Lu3Ok+kLSdOov4DdHNPZT4pED/qKtzV8qjRAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] script
+[8mha:////4EDTxsZlWGh1niJr9ntY6rU/CZxkFG/PWWD6MgfBK9oWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBSSEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g3QSQCqwgAAAA==[0m[Pipeline] {
+[8mha:////4BNBZyPnSNe4A/ElayJz+mSsAvaezkK3Fr7AykYybjT+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFhbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAQB2j23CAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $PASSWORD
+[8mha:////4OlzYkbB8Gx+N1w30Un4JoRIkNdLjcfEWCEJeQiaKpfjAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] {
+[8mha:////4KK9ub6J9P9gB9T6rfP4b1zrs/lSFG6bvAJg9BjEUPH8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] withMaven
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] using JDK installation java-8
+[withMaven] using Maven installation 'Maven3'
+[8mha:////4G1ZzqMDgFTbwz1b0gnIdUmb0OQn9YrxH6oiDsHkXaY5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7KBoKTCAAAA[0m[Pipeline] {
+[8mha:////4O1u3Fs+ZW3Vmq/yD8DhN2k8QtcpWEbd1ZoXOkWgmuf4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBlmkmCe+AAAA[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [PASSWORD, NEXUS_CREDS_PSW]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ mvn -Drevision=1.0.0-SNAPSHOT -Dserver.username=admin -Dserver.password=**** deploy
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena3797846/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena3797846" 
+Apache Maven 3.8.4 (9b656c72d54e5bacbed989b64718c159fe39b537)
+Maven home: /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven3
+Java version: 1.8.0_221, vendor: Oracle Corporation, runtime: /var/lib/jenkins/tools/hudson.model.JDK/java-8/jre
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "5.4.0-1061-aws", arch: "amd64", family: "unix"
+[INFO] [jenkins-event-spy] Generate /var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena3797846/maven-spy-20220119-131705-5643922645938428336026.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< io.learnk8s:knote-java >-----------------------
+[INFO] Building knote 7.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ knote-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ knote-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ knote-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Project03_CICD_Pipeline/src/test/resources
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ knote-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ knote-java ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.learnk8s.knote.KnoteJavaApplicationTests
+13:17:10.062 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class io.learnk8s.knote.KnoteJavaApplicationTests]
+13:17:10.070 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:17:10.085 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:17:10.130 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [io.learnk8s.knote.KnoteJavaApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:17:10.155 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [io.learnk8s.knote.KnoteJavaApplicationTests], using SpringBootContextLoader
+13:17:10.163 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: class path resource [io/learnk8s/knote/KnoteJavaApplicationTests-context.xml] does not exist
+13:17:10.164 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: class path resource [io/learnk8s/knote/KnoteJavaApplicationTestsContext.groovy] does not exist
+13:17:10.165 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:17:10.166 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: KnoteJavaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:17:10.271 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:17:10.476 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/classes/io/learnk8s/knote/KnoteJavaApplication.class]
+13:17:10.483 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration io.learnk8s.knote.KnoteJavaApplication for test class io.learnk8s.knote.KnoteJavaApplicationTests
+13:17:10.634 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [io.learnk8s.knote.KnoteJavaApplicationTests]: using defaults.
+13:17:10.635 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:17:10.657 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@8dbdac1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6e20b53a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@71809907, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3ce1e309, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6aba2b86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@158da8e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@74e52303, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@47af7f3d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7c729a55, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3bb9a3ff, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@661972b0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5af3afd9]
+13:17:10.663 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:17:10.664 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:17:10.666 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:17:10.666 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:17:10.667 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:17:10.667 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:17:10.672 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@515aebb0 testClass = KnoteJavaApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@dd8ba08 testClass = KnoteJavaApplicationTests, locations = '{}', classes = '{class io.learnk8s.knote.KnoteJavaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@53f65459, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@74650e52, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1563da5, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@7a187f14], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+13:17:10.673 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:17:10.673 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:17:10.710 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2022-01-19 13:17:11.332  INFO 3651 --- [           main] i.l.knote.KnoteJavaApplicationTests      : Starting KnoteJavaApplicationTests on 66a459bff11c.mylabserver.com with PID 3651 (started by jenkins in /var/lib/jenkins/workspace/Project03_CICD_Pipeline)
+2022-01-19 13:17:11.341  INFO 3651 --- [           main] i.l.knote.KnoteJavaApplicationTests      : No active profile set, falling back to default profiles: default
+2022-01-19 13:17:13.427  INFO 3651 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-01-19 13:17:13.574  INFO 3651 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139ms. Found 1 repository interfaces.
+2022-01-19 13:17:15.483  INFO 3651 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-19 13:17:15.601  INFO 3651 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_221]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_221]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_221]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar:na]
+	... 3 common frames omitted
+
+2022-01-19 13:17:17.272  INFO 3651 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-19 13:17:17.611  INFO 3651 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-19 13:17:18.797  INFO 3651 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-19 13:17:18.906  INFO 3651 --- [           main] i.l.knote.KnoteJavaApplicationTests      : Started KnoteJavaApplicationTests in 8.17 seconds (JVM running for 9.772)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.431 s - in io.learnk8s.knote.KnoteJavaApplicationTests
+2022-01-19 13:17:19.322  INFO 3651 --- [       Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ knote-java ---
+[INFO] Building jar: /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/knote-java-7.0.0-SNAPSHOT.jar
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.1.6.RELEASE:repackage (repackage) @ knote-java ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ knote-java ---
+[INFO] Installing /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/knote-java-7.0.0-SNAPSHOT.jar to /var/lib/jenkins/workspace/Project03_CICD_Pipeline/.m2/io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/Project03_CICD_Pipeline/pom.xml to /var/lib/jenkins/workspace/Project03_CICD_Pipeline/.m2/io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-SNAPSHOT.pom
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ knote-java ---
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/knoteapp-snapshot/io/learnk8s/knote-java/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Uploading to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-snapshot/io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-20220119.131705-1.jar
+[INFO] Uploaded to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-snapshot/io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-20220119.131705-1.jar (27 MB at 14 MB/s)
+[INFO] Uploading to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-snapshot/io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-20220119.131705-1.pom
+[INFO] Uploaded to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-snapshot/io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-20220119.131705-1.pom (3.3 kB at 25 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/knoteapp-snapshot/io/learnk8s/knote-java/maven-metadata.xml
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/knoteapp-snapshot/io/learnk8s/knote-java/maven-metadata.xml (281 B at 4.0 kB/s)
+[INFO] Uploading to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-snapshot/io/learnk8s/knote-java/7.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Uploaded to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-snapshot/io/learnk8s/knote-java/7.0.0-SNAPSHOT/maven-metadata.xml (771 B at 10 kB/s)
+[INFO] Uploading to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-snapshot/io/learnk8s/knote-java/maven-metadata.xml
+[INFO] Uploaded to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-snapshot/io/learnk8s/knote-java/maven-metadata.xml (321 B at 3.4 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.855 s
+[INFO] Finished at: 2022-01-19T13:17:25Z
+[INFO] ------------------------------------------------------------------------
+[INFO] [jenkins-event-spy] Generated /var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena3797846/maven-spy-20220119-131705-5643922645938428336026.log
+[8mha:////4Mb8S0Fs0M5UP+7IH10MMRKMglwRUDt3bWZOy+sw4cyXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoDSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BvQoOE2+AAAA[0m[Pipeline] }
+[withMaven] artifactsPublisher - Archive artifact pom.xml under io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-SNAPSHOT.pom
+[withMaven] artifactsPublisher - Archive artifact target/knote-java-7.0.0-SNAPSHOT.jar under io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-SNAPSHOT.jar
+[withMaven] junitPublisher - Archive test results for Maven artifact io.learnk8s:knote-java:jar:7.0.0-SNAPSHOT generated by maven-surefire-plugin:test (default-test): target/surefire-reports/*.xml
+[withMaven] junitPublisher - Jenkins [8mha:////4Nm5gXETwH6OP1OvXcuumodfAejiqmKXHKvUIxDNgjg+AAAAwR+LCAAAAAAAAP9djEsKwjAUAJ8VPYArEW9QbHYuFBeigj+KIB4g1JC+Nr6E5NXPNbyGbjyEx/EOKu6czcxq7i9oBA/dvNoHS0lmKVijkvnFKW+QytSy6o9uj9HVPSOIFtA0ijTna6hX3jC01oU8SmEkabFlj6SHZw+dv93k5+8MftQigLP7RJthmjO7MBDihCUmhaISKfQyTKzXYo/BGXkRy1m6WqRbsdwRcjxmlll+UMQh3phKI70B4ncifskAAAA=[0mJUnit Attachments Plugin not found, can't publish test attachments.Recording test results
+[withMaven] Jenkins [8mha:////4BHMjIMqtEQulnsSyCsqK8onooTlt6HxVLSXHIZEJde8AAAAvB+LCAAAAAAAAP9djMEJwjAUQL8VHUBv4gbF5uZBKR5EsFqKUBcIbUjThJ+QpNqu4Rp6cQjHcQeV3nyX907v8YaRszCvmtJpjAqNTisW7TvDrBIoM+3ZMr4/45t5BRAkMFYMua9SGDZWeZikNb1QoihyknsrkK9bC7O/3bb3bwY9gwCgNd+YethU3hu3IuQqpIhqhlKgWxQi0paTUjijaEcOu+yYZDk5UyfDvKCIzIYn1XCBHwby8vjEAAAA[0mTask Scanner Plugin not found, don't display results of source code scanning for 'TODO' and 'FIXME' in pipeline screen.
+[withMaven] Publishers: Pipeline Graph Publisher: 21 ms, Generated Artifacts Publisher: 367 ms, Junit Publisher: 23 ms, Dependencies Fingerprint Publisher: 2 ms, Open Task Scanner Publisher: 1 ms
+[8mha:////4K7apCzu3F919Hy9r+YNJ0kDx1twehEV9W+Aw/U+KwL2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHybgAYvgAAAA==[0m[Pipeline] // withMaven
+[8mha:////4OFhmGLvFk6f/f5BjjBjs6T3T0awZud7uaBiRxcM4+4BAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g2x7FGevgAAAA==[0m[Pipeline] }
+[8mha:////4OXLOlnpmbqIH1wH5XNeuErEySS+K+ebmVSLW+1qYEUWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGiSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGubgTMvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4PiLeM5sQVIG2oA6Qe0N+kV3uhIbohae3oaHBA3+E7pRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKSCgpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP0QEezq+AAAA[0m[Pipeline] }
+[8mha:////4I12uT02ezQS+jhcxQEIJX8rp/ZFITHYX623AnrcXZOtAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCoQQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAhjzWo74AAAA=[0m[Pipeline] // script
+[8mha:////4BmwLQu1OYguSCx/uWeQVEIT6DlKW3Jp/V3341FkzAoRAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISGQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDvn5FUr4AAAA=[0m[Pipeline] }
+[8mha:////4DLetsoLOTKVPB39h3ZcVsD6WBekgEKPmCz7QpBoD4gVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIJQCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g+KsKYJvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4MiC1EoqeA/fguJXk9ZQtYYNdaI0AHAkyttEack4PaJ+AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334AvXTJZL4AAAA=[0m[Pipeline] }
+[8mha:////4LUpyBNpa8zGEtrFFkUpsFiJZ+wL3l9/qqD/eeKCG6s4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRRUSBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF5qHPV+w+i9pw2vgAAAA==[0m[Pipeline] // stage
+[8mha:////4GzeaphZU7L79cbi+U+6aOZdyik+nUG6RpxMdA5Y7UYxAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQgIG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzTbbfvd5Vm8x2qykwgAAAA==[0m[Pipeline] stage
+[8mha:////4JHJ8qXMQwkiengK8Cip93ul1wkFS9hdcbCu9sNyFR9fAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0owNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPhRixbsIAAAA=[0m[Pipeline] { (release)
+Stage "release" skipped due to when conditional
+[8mha:////4OY3VEDNJoSMrg3bLacn9WY1OUqxtwM3HGyPlqzE6OSeAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxhnHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3yyJXUb4AAAA=[0m[Pipeline] }
+[8mha:////4GHk+aWJhY2nFidGkicHvEpkWuZcBbPWf4k1Z9UPzUCcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BvjBDO2+AAAA[0m[Pipeline] // stage
+[8mha:////4JWy5gHSkfPDTqfmBxM8J6fYwNOcUHw2c1772J1RoloeAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUh22u3f4DJkU12L4AAAA=[0m[Pipeline] }
+[8mha:////4B1AQDvdyyknshsFL/ttJx8Sz8kWwOzwQnNy7SaU5LldAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21238AFaZuZL4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4MvERZZdO3GDf0SDsdSo4UmI7MWu7jkzUVezEu/Eji5uAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUh12u7f4D7rfQvr4AAAA=[0m[Pipeline] }
+[8mha:////4LfaR79VFzPuATXBAf4IaeMfchS1fBwdktcZjoqk5tt+AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu13X8A3VSLAr4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4HuhThofpvb4Hn+QjM/X+BCBs1EpgL6iqaS8k64R64qoAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM+13X0AxvHqgb4AAAA=[0m[Pipeline] }
+[8mha:////4PGbE8PW/LsyPZGpRFQwxmu2jRRKrz7eO/kpWHAFcUVsAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUh32u7e4D9RKxPb4AAAA=[0m[Pipeline] // withCredentials
+[8mha:////4OznECSD4O4zq4FgN+fXhYAgQFb0Ps6HoD/5AUJpA4ZrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiNAgJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w/hMSwivgAAAA==[0m[Pipeline] }
+[8mha:////4AANQETXScR49MewV7qSoYVrDGjBq5wj1BX4CiLTKLwIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDPtdu+wHS0neevgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4BjbJAh/WApI26xUFgtbO9GZs1a9DJHlNIilGG6oJN3YAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsDiTGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HjDE6xb0AAAA=[0m[Pipeline] }
+[8mha:////4Ag35uB4iS3jhxe2+lB4vQnLYnlB9SFvQv/nOc1ZZX2HAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpaECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPn40+Zr0AAAA=[0m[Pipeline] // node
+[8mha:////4JyTfIe+nUx2rl3F8Aq2YEaGF78zepfQyEtFyzNXd2gpAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBdAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcB3Qx1170AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

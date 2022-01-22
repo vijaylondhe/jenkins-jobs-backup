@@ -1,0 +1,1072 @@
+Started by user [8mha:////4AWzJYB2O/WIuF8QyGgG/VmM2QY1L+5jpJa4X8Lmk+OvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile.jdp from git https://github.com/vijaylondhe/mavenreleaseprod1.git
+[8mha:////4GF1+P3HqBDDRiZh7Qrrenpj1ynFwcJvhhh50SwMYpsLAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4ExDy4r0GKldPaT/B21A50TOoq+VNyG5bfwpByRKxkwUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BTBqBgKl92c70TmC3hVA3VhSG2cyyQqj9pbXDxOhqYqAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[8mha:////4LxjiqyFPrPgS5XorukqFgCjOTJr939e+tD4/sN4OWLVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4E8n/pS4LrF5XFN9THeDvocWq1IbeljQs2DgFQtGtveBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4NyAZYoXy2fD1CH0BARsoNmPYd8zpOh3mdgRhV/7wd/UAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4DhrTPCqOsYscO5IFsvKfVmqGvoWnuDgiG4GYs4ayS9KAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Project03_CICD_Pipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/vijaylondhe/mavenreleaseprod1.git # timeout=10
+Fetching upstream changes from https://github.com/vijaylondhe/mavenreleaseprod1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://github.com/vijaylondhe/mavenreleaseprod1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision f208f08555110f820c65692dd43c9d5101318055 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f208f08555110f820c65692dd43c9d5101318055 # timeout=10
+Commit message: "fixed wrong nexus ip in snapshot repo section"
+ > git rev-list --no-walk f208f08555110f820c65692dd43c9d5101318055 # timeout=10
+[8mha:////4Bwh7TI8ZL5TyCnt5QebuDyybyd9zP/p6eSaCnrfei3MAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4GECjbXoBKwF7Gbj2eghBFJiYcsjkLpvuDE1jbKRAS18AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4G4l+hsalvzKZvyD2eaeQt+TvUP3LLJgqvkeUOkylaIHAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4IiFNPdr/nYzUkC6f55YqmdMJeFOxO9mn85s2oPkkcXCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4MEYiIwsGh+T253utTnUCs2uw5X0YE4fl0S1tshgLhLTAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withCredentials
+Masking supported pattern matches of $NEXUS_CREDS or $NEXUS_CREDS_PSW
+[8mha:////4EpAhjdd47VHnjJ6B++vbjQDk9nuSicRWeKFVIfAvUecAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4HVsVTTjZjnIp4FENTa8MXYE2Xxdz/rNcB/cURaVb4XxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withEnv
+[8mha:////4GZdi/S+b0HmU99Sc2QDZE8yl+7ljeYaG0hTprG7nAR2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4MnKRquJVc2OujyGCO8LhkcigCKUvoznvDNCIeTTA5qiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4J0gwfnYLmXXI5IPvcUZ3W+SBPQxazafNCb7cYHYmsgJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4LJazp+p+XBYjVsGnWi6rI7Q9oat4KprQPAreNBFkGD9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] tool
+[8mha:////4B1gpBVM3TYVRj2Ieyr3XCKo3nbfVOQ0tSA+jkgVpUk2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN1TuT7W+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4EjM4fUPDhybt0WeMGncbfm7aWo0CiX6RTruumS6QavPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICNBQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AFE68tmvgAAAA==[0m[Pipeline] tool
+[8mha:////4K6EgvjKbHlpbQodc6+WKzKUP7AWuD4PEaYniBv10b4dAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wEF2tB/vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4J4BZi4h8/RPMa8GPa/2Dqxbw6CsjNXPABNwLyZaC6v1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AGMia70vgAAAA==[0m[Pipeline] }
+[8mha:////4HQxR9H+tN8ploKG5p5ni8LQ+YVR7LzhLYbhwZg5btRfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+/avVIvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IHHCauiUovWoPwlU0JoBYETYmnRUK9gEZMHaIl/1oo0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2zb3edZvQFthsLMwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4AjdLaQafSV9tt8NXzOhP1Y/wqOw/aFOei1RIzPOcHZ3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4Puqb4TjjvoJP8glWg9Sw1gEdXuH6Wu2xJ3wbjy1DEMYAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] stage
+[8mha:////4C7ydMj1/SZWPpqDgotYXZwCrvvxRdMAg73XS5sIYEstAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (clean & verify)
+[8mha:////4JYgOo33UTQM9X0i2PPmBGaSIM0lqgDn3h9wyN//jhxHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] tool
+[8mha:////4HXktqzwo4jY4GYC2Jjnw4MB662dW8ck+md7dDza5n6mAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHuV4Y5vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4MxegxkIh3FPegZRPg7Glp6yJDcxdZtLaMvUZLRPJQF+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+QhobpvgAAAA==[0m[Pipeline] tool
+[8mha:////4OZ6FVhC9S6faFCtbL8E0MbNePCYxUYreqO4dXDmay/4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/Rt53wvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4B8NskR+aecN1JwTJJl6crgDhvHvxfO40szmWhDbF4k0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKgMDYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhls8+2az7P6g31BR6TwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4NmKb2MmklRrHusrN77XB1TFw/Dy7MANmnMpdnK0ga2rAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] {
+[8mha:////4IF5u0/I/mcCApwTN9VuXUre10QcorE5oO3vSOlSe4xkAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] script
+[8mha:////4MkfRbSenlCUd/vnXUYOIQ3LvM87BlyvYeEXmw2sk56lAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] {
+[8mha:////4DZRy33k+p/aox60+7Rk/urKJEMo/w7X1lL5YeLmqcURAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $PASSWORD
+[8mha:////4O6kCvpzXMBMpSmXrZkjYB13YPM9UDv6sAwFUbsJ8oWZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] {
+[8mha:////4IcyB3068TQpY+aGmDUqIZ5HNxRMxgj2qwBRyq98BbkLAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] withMaven
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] using JDK installation java-8
+[withMaven] using Maven installation 'Maven3'
+[8mha:////4A6ZxG6h2FNzymsCo8q9KCvVXLrJ7vAh+v1mhFPaWIa7AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] {
+[8mha:////4O/ZwyRWIIhuCOUWj0Mo8+CxVimGW8TYMfUWAjXi9MkUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/W61xwvgAAAA==[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [PASSWORD, NEXUS_CREDS_PSW]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ mvn -Drevision=1.0.0-SNAPSHOT -Dserver.username=admin -Dserver.password=**** clean verify
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMaven4929b33d/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMaven4929b33d" 
+Apache Maven 3.8.4 (9b656c72d54e5bacbed989b64718c159fe39b537)
+Maven home: /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven3
+Java version: 1.8.0_221, vendor: Oracle Corporation, runtime: /var/lib/jenkins/tools/hudson.model.JDK/java-8/jre
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "5.4.0-1061-aws", arch: "amd64", family: "unix"
+[INFO] [jenkins-event-spy] Generate /var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMaven4929b33d/maven-spy-20220119-131815-4256059980498493352081.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< io.learnk8s:knote-java >-----------------------
+[INFO] Building knote 7.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ knote-java ---
+[INFO] Deleting /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ knote-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ knote-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/classes
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ knote-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Project03_CICD_Pipeline/src/test/resources
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ knote-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/test-classes
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ knote-java ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running io.learnk8s.knote.KnoteJavaApplicationTests
+13:18:23.094 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class io.learnk8s.knote.KnoteJavaApplicationTests]
+13:18:23.103 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:18:23.115 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:18:23.147 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [io.learnk8s.knote.KnoteJavaApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:18:23.164 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [io.learnk8s.knote.KnoteJavaApplicationTests], using SpringBootContextLoader
+13:18:23.170 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: class path resource [io/learnk8s/knote/KnoteJavaApplicationTests-context.xml] does not exist
+13:18:23.172 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: class path resource [io/learnk8s/knote/KnoteJavaApplicationTestsContext.groovy] does not exist
+13:18:23.173 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:18:23.174 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: KnoteJavaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:18:23.271 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:18:23.470 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/classes/io/learnk8s/knote/KnoteJavaApplication.class]
+13:18:23.480 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration io.learnk8s.knote.KnoteJavaApplication for test class io.learnk8s.knote.KnoteJavaApplicationTests
+13:18:23.620 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [io.learnk8s.knote.KnoteJavaApplicationTests]: using defaults.
+13:18:23.621 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:18:23.642 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5e0826e7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32eff876, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@8dbdac1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6e20b53a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71809907, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3ce1e309, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6aba2b86, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@158da8e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@74e52303, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@47af7f3d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7c729a55, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bb9a3ff]
+13:18:23.646 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:18:23.647 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:18:23.650 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:18:23.651 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:18:23.652 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:18:23.653 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:18:23.658 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@52bf72b5 testClass = KnoteJavaApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@37afeb11 testClass = KnoteJavaApplicationTests, locations = '{}', classes = '{class io.learnk8s.knote.KnoteJavaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1e965684, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b088d51, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@528931cf, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2173f6d9], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+13:18:23.660 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:18:23.661 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+13:18:23.688 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2022-01-19 13:18:24.208  INFO 3867 --- [           main] i.l.knote.KnoteJavaApplicationTests      : Starting KnoteJavaApplicationTests on 66a459bff11c.mylabserver.com with PID 3867 (started by jenkins in /var/lib/jenkins/workspace/Project03_CICD_Pipeline)
+2022-01-19 13:18:24.210  INFO 3867 --- [           main] i.l.knote.KnoteJavaApplicationTests      : No active profile set, falling back to default profiles: default
+2022-01-19 13:18:26.193  INFO 3867 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-01-19 13:18:26.323  INFO 3867 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122ms. Found 1 repository interfaces.
+2022-01-19 13:18:27.893  INFO 3867 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2022-01-19 13:18:28.108  INFO 3867 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_221]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_221]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_221]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_221]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar:na]
+	... 3 common frames omitted
+
+2022-01-19 13:18:29.968  INFO 3867 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-19 13:18:30.329  INFO 3867 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-19 13:18:31.388  INFO 3867 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-01-19 13:18:31.486  INFO 3867 --- [           main] i.l.knote.KnoteJavaApplicationTests      : Started KnoteJavaApplicationTests in 7.785 seconds (JVM running for 9.239)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.07 s - in io.learnk8s.knote.KnoteJavaApplicationTests
+2022-01-19 13:18:31.843  INFO 3867 --- [       Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ knote-java ---
+[INFO] Building jar: /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/knote-java-7.0.0-SNAPSHOT.jar
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.1.6.RELEASE:repackage (repackage) @ knote-java ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.039 s
+[INFO] Finished at: 2022-01-19T13:18:33Z
+[INFO] ------------------------------------------------------------------------
+[INFO] [jenkins-event-spy] Generated /var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMaven4929b33d/maven-spy-20220119-131815-4256059980498493352081.log
+[8mha:////4HJ71+DtOIIOvT4Ju3VVxoLRNm952U7hGbTkhVh+mngWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+dgWTEvgAAAA==[0m[Pipeline] }
+[withMaven] artifactsPublisher - Archive artifact pom.xml under io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-SNAPSHOT.pom
+[withMaven] artifactsPublisher - Archive artifact target/knote-java-7.0.0-SNAPSHOT.jar under io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-SNAPSHOT.jar
+[withMaven] junitPublisher - Archive test results for Maven artifact io.learnk8s:knote-java:jar:7.0.0-SNAPSHOT generated by maven-surefire-plugin:test (default-test): target/surefire-reports/*.xml
+[withMaven] junitPublisher - Jenkins [8mha:////4Nm5gXETwH6OP1OvXcuumodfAejiqmKXHKvUIxDNgjg+AAAAwR+LCAAAAAAAAP9djEsKwjAUAJ8VPYArEW9QbHYuFBeigj+KIB4g1JC+Nr6E5NXPNbyGbjyEx/EOKu6czcxq7i9oBA/dvNoHS0lmKVijkvnFKW+QytSy6o9uj9HVPSOIFtA0ijTna6hX3jC01oU8SmEkabFlj6SHZw+dv93k5+8MftQigLP7RJthmjO7MBDihCUmhaISKfQyTKzXYo/BGXkRy1m6WqRbsdwRcjxmlll+UMQh3phKI70B4ncifskAAAA=[0mJUnit Attachments Plugin not found, can't publish test attachments.Recording test results
+[withMaven] Jenkins [8mha:////4BHMjIMqtEQulnsSyCsqK8onooTlt6HxVLSXHIZEJde8AAAAvB+LCAAAAAAAAP9djMEJwjAUQL8VHUBv4gbF5uZBKR5EsFqKUBcIbUjThJ+QpNqu4Rp6cQjHcQeV3nyX907v8YaRszCvmtJpjAqNTisW7TvDrBIoM+3ZMr4/45t5BRAkMFYMua9SGDZWeZikNb1QoihyknsrkK9bC7O/3bb3bwY9gwCgNd+YethU3hu3IuQqpIhqhlKgWxQi0paTUjijaEcOu+yYZDk5UyfDvKCIzIYn1XCBHwby8vjEAAAA[0mTask Scanner Plugin not found, don't display results of source code scanning for 'TODO' and 'FIXME' in pipeline screen.
+[withMaven] Publishers: Pipeline Graph Publisher: 26 ms, Generated Artifacts Publisher: 152 ms, Junit Publisher: 9 ms, Open Task Scanner Publisher: 1 ms
+[8mha:////4O4uvfooUIKO+mYwBo0EpqBK/DlfEQ+hxVRONKCqUGKtAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wApcP3Nb4AAAA=[0m[Pipeline] // withMaven
+[8mha:////4CVyMeNEDpKQ7xXXUM1ykRO0eOs9mls/C7hmuSBldAkpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBIkCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw+RDRRuvgAAAA==[0m[Pipeline] }
+[8mha:////4IiGHHzK3EL+mi8e74kBK2FMoGTO4VXLd8MyPr+7JXpiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpiGgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AG/DRYEvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4P6DoLP/kOy4EGkQto4CV204M6/P9w7D6cGdAf6wlhVdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP6CPQ1a+AAAA[0m[Pipeline] }
+[8mha:////4J4IVXjiBPAijMFTlgGVZ5ZGDoX+sNn99k05JMrnD2g0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpiGgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrQ659/QGYzdCnvgAAAA==[0m[Pipeline] // script
+[8mha:////4De4CHfTwsOHid4XgBS6fwuh5eAwEgeaO2GO1kW15UfZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBIkCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w+ei+jyvgAAAA==[0m[Pipeline] }
+[8mha:////4AKdlf+dEerpRUueaQbg9VF6jRl7jnq9DBFOQa4hO41RAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234A3Qm5dL4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4HuBukUF+dROgi/C3vut/SueF4ZcAINz1SbAD24DPelgAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISSEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4Dth+U1r4AAAA=[0m[Pipeline] }
+[8mha:////4MPRK8aeY7NEWDst6/DQEddFVQNfRL/lsRefLOPCED8ZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9cdesgvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CIsIOukqBnK+nykuOk/9N3oqJxYsOt3lv5K7pxPdKvwAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIHVCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcN9ma3edZvQGg+zYuwgAAAA==[0m[Pipeline] stage
+[8mha:////4AI2Jsrn+t1tRkZeKJe9ikQ95J1zKScBfTAIYxuXvwm4AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] { (deploy)
+Stage "deploy" skipped due to when conditional
+[8mha:////4BRZhjffRYMU41MkPq0ea9I7d9vPX3NI/GwRzGecYowIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbNyxVU+6+AAAA[0m[Pipeline] }
+[8mha:////4OjDgkliwcdl1rnTNLm9Y5yhEIVp5vcKKt6omZo9OjshAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbNy40X2q+AAAA[0m[Pipeline] // stage
+[8mha:////4OGfjkeuE9c2GStVQrF5u9TmNe94q9x5Jr3WhERh5b+JAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQuqEmFijLJwgpCGkjf4vPyntxIm4GncgUIkJD5ZtyXrPF1SR4UDsRGex9xiNF0MYXU5iIu4vgSbR0VkYwkjBCmUnRa09LlVRsrCoKGElYW3RBIoeXYKN7PRd10Gjq0+J87aXUPr2Bg8oZCYnzelbZobtdWwj4Y/zFwDzkKDcNdma5vOs3ra5p7XCAAAA[0m[Pipeline] stage
+[8mha:////4CTtvqnECNoIqlIQJNiRavCdmN3NQNyyTTQcDKtKaTcmAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] { (release)
+[8mha:////4NtXM8bZmuQrI33v993dKpE1qd5L7VtaaOrQN+pOXB/1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBkhu+A6+AAAA[0m[Pipeline] tool
+[8mha:////4Ca6/wzeWQAOoxJylywhcDNg7jaqLDRykpV+lU77WCyvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN4dyYIm+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4Bspq9Zk0jZvfFGNBEaf73V9pWKRFPeTxLn4YYFenhS7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN8ZDe5C+AAAA[0m[Pipeline] tool
+[8mha:////4C+C7UBWNucsgoS2t8wpPAwDO6jEIOGEO85BT7PYk0UvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQxpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKA91rnrvP9ZG/0O+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4L6fmfnp+v2amwKVUB4eVrTHQlX6fkAbsBffWU6oQECIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDHRBTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcN9ma3edZvQGzbqTywgAAAA==[0m[Pipeline] withEnv
+[8mha:////4OlzYkbB8Gx+N1w30Un4JoRIkNdLjcfEWCEJeQiaKpfjAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] {
+[8mha:////4KK9ub6J9P9gB9T6rfP4b1zrs/lSFG6bvAJg9BjEUPH8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] script
+[8mha:////4G1ZzqMDgFTbwz1b0gnIdUmb0OQn9YrxH6oiDsHkXaY5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7KBoKTCAAAA[0m[Pipeline] {
+[8mha:////4EUfYu5ilfm1qJeLmonkVwLHt7f9q4fwFsUuvY7fTEqDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAZRHx0bCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $PASSWORD
+[8mha:////4DrqegsZYNQRMqGuBlQQjfNrI9dYDHYD2ghpS2njss2NAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0ogtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+urdAcIAAAA=[0m[Pipeline] {
+[8mha:////4N2DkJWNqZDGTiA51uxTpau9IiYhfFFwEyU/Pu88kXV5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KwNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPXl9jU8IAAAA=[0m[Pipeline] withMaven
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] using JDK installation java-8
+[withMaven] using Maven installation 'Maven3'
+[8mha:////4INRo6T9nozMF/I8mOFvqA/uhUxMmM65FtIXc3JIaxXzAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUsyu2PCAAAA[0m[Pipeline] {
+[8mha:////4OB2gR4N3vzOqsaLEq08mFjDghQrDoFNeCDwpHVTYlhXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBiGBjUy+AAAA[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [PASSWORD, NEXUS_CREDS_PSW]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ mvn -Drevision=1.0.0-SNAPSHOT -Dserver.username=admin -Dserver.password=**** release:clean release:prepare release:perform
+----- withMaven Wrapper script -----
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b" 
+Apache Maven 3.8.4 (9b656c72d54e5bacbed989b64718c159fe39b537)
+Maven home: /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven3
+Java version: 1.8.0_221, vendor: Oracle Corporation, runtime: /var/lib/jenkins/tools/hudson.model.JDK/java-8/jre
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "5.4.0-1061-aws", arch: "amd64", family: "unix"
+[INFO] [jenkins-event-spy] Generate /var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b/maven-spy-20220119-131837-476400468633972605830.log.tmp ...
+[INFO] Scanning for projects...
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom (11 kB at 53 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom (5.0 kB at 105 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar (53 kB at 964 kB/s)
+[INFO] 
+[INFO] -----------------------< io.learnk8s:knote-java >-----------------------
+[INFO] Building knote 7.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-release-plugin:2.5.3:clean (default-cli) @ knote-java ---
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/release/maven-release-manager/2.5.3/maven-release-manager-2.5.3.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/release/maven-release-manager/2.5.3/maven-release-manager-2.5.3.pom (9.6 kB at 274 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/release/maven-release-api/2.5.3/maven-release-api-2.5.3.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/release/maven-release-api/2.5.3/maven-release-api-2.5.3.pom (2.0 kB at 66 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.pom (2.2 kB at 110 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/eclipse/aether/aether/1.0.0.v20140518/aether-1.0.0.v20140518.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/eclipse/aether/aether/1.0.0.v20140518/aether-1.0.0.v20140518.pom (30 kB at 296 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.pom (1.9 kB at 65 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.pom (1.2 kB at 40 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.pom (726 B at 28 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-interactivity/1.0-alpha-6/plexus-interactivity-1.0-alpha-6.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-interactivity/1.0-alpha-6/plexus-interactivity-1.0-alpha-6.pom (1.1 kB at 12 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom (2.4 kB at 116 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom (8.2 kB at 434 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-invoker/2.2/maven-invoker-2.2.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-invoker/2.2/maven-invoker-2.2.pom (5.9 kB at 202 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-lang/commons-lang/2.4/commons-lang-2.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-lang/commons-lang/2.4/commons-lang-2.4.pom (14 kB at 538 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/9/commons-parent-9.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/9/commons-parent-9.pom (22 kB at 877 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/apache/4/apache-4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/apache/4/apache-4.pom (4.5 kB at 204 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-cli/commons-cli/1.2/commons-cli-1.2.pom (8.0 kB at 443 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/11/commons-parent-11.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/11/commons-parent-11.pom (25 kB at 277 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-io/commons-io/2.2/commons-io-2.2.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-io/commons-io/2.2/commons-io-2.2.pom (11 kB at 290 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/24/commons-parent-24.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/24/commons-parent-24.pom (47 kB at 1.4 MB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-providers-standard/1.9.4/maven-scm-providers-standard-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-providers-standard/1.9.4/maven-scm-providers-standard-1.9.4.pom (3.9 kB at 136 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-providers/1.9.4/maven-scm-providers-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-providers/1.9.4/maven-scm-providers-1.9.4.pom (3.5 kB at 167 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm/1.9.4/maven-scm-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm/1.9.4/maven-scm-1.9.4.pom (22 kB at 170 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-accurev/1.9.4/maven-scm-provider-accurev-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-accurev/1.9.4/maven-scm-provider-accurev-1.9.4.pom (3.2 kB at 134 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-api/1.9.4/maven-scm-api-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-api/1.9.4/maven-scm-api-1.9.4.pom (1.6 kB at 49 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-bazaar/1.9.4/maven-scm-provider-bazaar-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-bazaar/1.9.4/maven-scm-provider-bazaar-1.9.4.pom (1.9 kB at 18 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-clearcase/1.9.4/maven-scm-provider-clearcase-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-clearcase/1.9.4/maven-scm-provider-clearcase-1.9.4.pom (2.6 kB at 118 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-cvsexe/1.9.4/maven-scm-provider-cvsexe-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-cvsexe/1.9.4/maven-scm-provider-cvsexe-1.9.4.pom (2.7 kB at 135 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-providers-cvs/1.9.4/maven-scm-providers-cvs-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-providers-cvs/1.9.4/maven-scm-providers-cvs-1.9.4.pom (1.7 kB at 78 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.9.4/maven-scm-provider-cvs-commons-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.9.4/maven-scm-provider-cvs-commons-1.9.4.pom (2.3 kB at 80 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-cvsjava/1.9.4/maven-scm-provider-cvsjava-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-cvsjava/1.9.4/maven-scm-provider-cvsjava-1.9.4.pom (2.6 kB at 138 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/netbeans/lib/cvsclient/20060125/cvsclient-20060125.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/netbeans/lib/cvsclient/20060125/cvsclient-20060125.pom (459 B at 16 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.pom (710 B at 36 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-gitexe/1.9.4/maven-scm-provider-gitexe-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-gitexe/1.9.4/maven-scm-provider-gitexe-1.9.4.pom (2.5 kB at 140 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-providers-git/1.9.4/maven-scm-providers-git-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-providers-git/1.9.4/maven-scm-providers-git-1.9.4.pom (2.2 kB at 94 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (17 kB at 795 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/17/commons-parent-17.pom (31 kB at 821 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-git-commons/1.9.4/maven-scm-provider-git-commons-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-git-commons/1.9.4/maven-scm-provider-git-commons-1.9.4.pom (2.1 kB at 73 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-hg/1.9.4/maven-scm-provider-hg-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-hg/1.9.4/maven-scm-provider-hg-1.9.4.pom (2.3 kB at 122 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-perforce/1.9.4/maven-scm-provider-perforce-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-perforce/1.9.4/maven-scm-provider-perforce-1.9.4.pom (2.5 kB at 66 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-starteam/1.9.4/maven-scm-provider-starteam-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-starteam/1.9.4/maven-scm-provider-starteam-1.9.4.pom (2.6 kB at 113 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-svnexe/1.9.4/maven-scm-provider-svnexe-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-svnexe/1.9.4/maven-scm-provider-svnexe-1.9.4.pom (2.6 kB at 91 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-providers-svn/1.9.4/maven-scm-providers-svn-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-providers-svn/1.9.4/maven-scm-providers-svn-1.9.4.pom (2.1 kB at 92 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-svn-commons/1.9.4/maven-scm-provider-svn-commons-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-svn-commons/1.9.4/maven-scm-provider-svn-commons-1.9.4.pom (2.7 kB at 23 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-synergy/1.9.4/maven-scm-provider-synergy-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-synergy/1.9.4/maven-scm-provider-synergy-1.9.4.pom (2.0 kB at 116 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-vss/1.9.4/maven-scm-provider-vss-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-vss/1.9.4/maven-scm-provider-vss-1.9.4.pom (3.3 kB at 69 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-tfs/1.9.4/maven-scm-provider-tfs-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-tfs/1.9.4/maven-scm-provider-tfs-1.9.4.pom (2.8 kB at 78 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-integrity/1.9.4/maven-scm-provider-integrity-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-integrity/1.9.4/maven-scm-provider-integrity-1.9.4.pom (4.3 kB at 27 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/com/mks/api/mksapi-jar/4.10.9049/mksapi-jar-4.10.9049.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/com/mks/api/mksapi-jar/4.10.9049/mksapi-jar-4.10.9049.pom (1.1 kB at 62 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/groovy/groovy-all/1.7.6/groovy-all-1.7.6.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/groovy/groovy-all/1.7.6/groovy-all-1.7.6.pom (27 kB at 916 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-jazz/1.9.4/maven-scm-provider-jazz-1.9.4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-jazz/1.9.4/maven-scm-provider-jazz-1.9.4.pom (3.6 kB at 158 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-manager-plexus/1.8/maven-scm-manager-plexus-1.8.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-manager-plexus/1.8/maven-scm-manager-plexus-1.8.pom (2.2 kB at 127 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-managers/1.8/maven-scm-managers-1.8.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-managers/1.8/maven-scm-managers-1.8.pom (1.5 kB at 47 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm/1.8/maven-scm-1.8.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm/1.8/maven-scm-1.8.pom (21 kB at 252 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-api/1.8/maven-scm-api-1.8.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-api/1.8/maven-scm-api-1.8.pom (1.6 kB at 49 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/jdom/jdom/1.1/jdom-1.1.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/jdom/jdom/1.1/jdom-1.1.pom (2.2 kB at 104 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/jaxen/jaxen/1.1-beta-8/jaxen-1.1-beta-8.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/jaxen/jaxen/1.1-beta-8/jaxen-1.1-beta-8.pom (6.7 kB at 268 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/jdom/jdom/1.0/jdom-1.0.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/jdom/jdom/1.0/jdom-1.0.pom (1.2 kB at 56 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom (1.9 kB at 51 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom (1.4 kB at 76 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom (2.0 kB at 82 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom (15 kB at 379 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom (1.6 kB at 16 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom (3.5 kB at 22 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom (1.9 kB at 73 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom (3.2 kB at 161 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom (7.1 kB at 355 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/release/maven-release-manager/2.5.3/maven-release-manager-2.5.3.jar
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/release/maven-release-api/2.5.3/maven-release-api-2.5.3.jar
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/release/maven-release-manager/2.5.3/maven-release-manager-2.5.3.jar (200 kB at 3.1 MB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/release/maven-release-api/2.5.3/maven-release-api-2.5.3.jar (17 kB at 200 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-invoker/2.2/maven-invoker-2.2.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar (12 kB at 140 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar (195 kB at 2.0 MB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-invoker/2.2/maven-invoker-2.2.jar (30 kB at 282 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-cli/commons-cli/1.2/commons-cli-1.2.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar (4.2 kB at 38 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-io/commons-io/2.2/commons-io-2.2.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar (136 kB at 1.1 MB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-accurev/1.9.4/maven-scm-provider-accurev-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-cli/commons-cli/1.2/commons-cli-1.2.jar (41 kB at 300 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-bazaar/1.9.4/maven-scm-provider-bazaar-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-io/commons-io/2.2/commons-io-2.2.jar (174 kB at 1.2 MB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-clearcase/1.9.4/maven-scm-provider-clearcase-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-lang/commons-lang/2.4/commons-lang-2.4.jar (262 kB at 1.7 MB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-cvsexe/1.9.4/maven-scm-provider-cvsexe-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-accurev/1.9.4/maven-scm-provider-accurev-1.9.4.jar (93 kB at 580 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.9.4/maven-scm-provider-cvs-commons-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar (146 kB at 824 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-cvsjava/1.9.4/maven-scm-provider-cvsjava-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-bazaar/1.9.4/maven-scm-provider-bazaar-1.9.4.jar (56 kB at 302 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/netbeans/lib/cvsclient/20060125/cvsclient-20060125.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-cvs-commons/1.9.4/maven-scm-provider-cvs-commons-1.9.4.jar (76 kB at 408 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-cvsexe/1.9.4/maven-scm-provider-cvsexe-1.9.4.jar (30 kB at 156 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-gitexe/1.9.4/maven-scm-provider-gitexe-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-cvsjava/1.9.4/maven-scm-provider-cvsjava-1.9.4.jar (44 kB at 215 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-git-commons/1.9.4/maven-scm-provider-git-commons-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-gitexe/1.9.4/maven-scm-provider-gitexe-1.9.4.jar (66 kB at 304 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-hg/1.9.4/maven-scm-provider-hg-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/netbeans/lib/cvsclient/20060125/cvsclient-20060125.jar (619 kB at 2.7 MB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-perforce/1.9.4/maven-scm-provider-perforce-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-hg/1.9.4/maven-scm-provider-hg-1.9.4.jar (66 kB at 267 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-starteam/1.9.4/maven-scm-provider-starteam-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-starteam/1.9.4/maven-scm-provider-starteam-1.9.4.jar (71 kB at 256 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-svnexe/1.9.4/maven-scm-provider-svnexe-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-perforce/1.9.4/maven-scm-provider-perforce-1.9.4.jar (83 kB at 293 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-synergy/1.9.4/maven-scm-provider-synergy-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-clearcase/1.9.4/maven-scm-provider-clearcase-1.9.4.jar (68 kB at 217 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-vss/1.9.4/maven-scm-provider-vss-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-synergy/1.9.4/maven-scm-provider-synergy-1.9.4.jar (58 kB at 185 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-tfs/1.9.4/maven-scm-provider-tfs-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-git-commons/1.9.4/maven-scm-provider-git-commons-1.9.4.jar (34 kB at 105 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-integrity/1.9.4/maven-scm-provider-integrity-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/ch/ethz/ganymed/ganymed-ssh2/build210/ganymed-ssh2-build210.jar (245 kB at 735 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/com/mks/api/mksapi-jar/4.10.9049/mksapi-jar-4.10.9049.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-tfs/1.9.4/maven-scm-provider-tfs-1.9.4.jar (43 kB at 127 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/groovy/groovy-all/1.7.6/groovy-all-1.7.6.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-svnexe/1.9.4/maven-scm-provider-svnexe-1.9.4.jar (78 kB at 222 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-jazz/1.9.4/maven-scm-provider-jazz-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-vss/1.9.4/maven-scm-provider-vss-1.9.4.jar (69 kB at 196 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-manager-plexus/1.8/maven-scm-manager-plexus-1.8.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-integrity/1.9.4/maven-scm-provider-integrity-1.9.4.jar (78 kB at 214 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-svn-commons/1.9.4/maven-scm-provider-svn-commons-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-manager-plexus/1.8/maven-scm-manager-plexus-1.8.jar (11 kB at 28 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/jaxen/jaxen/1.1-beta-8/jaxen-1.1-beta-8.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-jazz/1.9.4/maven-scm-provider-jazz-1.9.4.jar (65 kB at 167 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/jdom/jdom/1.0/jdom-1.0.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-provider-svn-commons/1.9.4/maven-scm-provider-svn-commons-1.9.4.jar (37 kB at 92 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/com/mks/api/mksapi-jar/4.10.9049/mksapi-jar-4.10.9049.jar (645 kB at 1.5 MB/s)
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.jar (9.8 kB at 23 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.jar
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.jar (11 kB at 25 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-api/1.9.4/maven-scm-api-1.9.4.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.jar (13 kB at 27 kB/s)
+[INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/jdom/jdom/1.1/jdom-1.1.jar
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/scm/maven-scm-api/1.9.4/maven-scm-api-1.9.4.jar (107 kB at 219 kB/s)
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/jdom/jdom/1.1/jdom-1.1.jar (153 kB at 301 kB/s)
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/jdom/jdom/1.0/jdom-1.0.jar (153 kB at 277 kB/s)
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/jaxen/jaxen/1.1-beta-8/jaxen-1.1-beta-8.jar (232 kB at 409 kB/s)
+[INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/groovy/groovy-all/1.7.6/groovy-all-1.7.6.jar (5.7 MB at 7.2 MB/s)
+[INFO] Cleaning up after release...
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-release-plugin:2.5.3:prepare (default-cli) @ knote-java ---
+[INFO] Verifying that there are no local modifications...
+[INFO]   ignoring changes on: **/pom.xml.releaseBackup, **/pom.xml.next, **/pom.xml.tag, **/pom.xml.branch, **/release.properties, **/pom.xml.backup
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline && git rev-parse --show-toplevel
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline && git status --porcelain .
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/aopalliance/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/backport-util-concurrent/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/ch/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/classworlds/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/com/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/commons-cli/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/commons-codec/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/commons-io/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/commons-lang/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/io/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/javax/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/jaxen/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/jdom/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/junit/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/net/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/org/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? release.properties
+[INFO] Checking dependencies and plugins for snapshots ...
+[INFO] Transforming 'knote'...
+[INFO] Not generating release POMs
+[INFO] Executing goals 'validate'...
+[INFO] Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b" 
+[INFO] [INFO] [jenkins-event-spy] Generate /var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b/maven-spy-20220119-131845-771191760447322584261.log.tmp ...
+[INFO] [INFO] Scanning for projects...
+[INFO] [INFO] 
+[INFO] [INFO] -----------------------< io.learnk8s:knote-java >-----------------------
+[INFO] [INFO] Building knote 7.0.0
+[INFO] [INFO] --------------------------------[ jar ]---------------------------------
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] BUILD SUCCESS
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] Total time:  0.564 s
+[INFO] [INFO] Finished at: 2022-01-19T13:18:46Z
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] [jenkins-event-spy] Generated /var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b/maven-spy-20220119-131845-771191760447322584261.log
+[INFO] Checking in modified POMs...
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline && git add -- pom.xml
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline && git rev-parse --show-toplevel
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline && git status --porcelain .
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/aopalliance/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/backport-util-concurrent/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/ch/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/classworlds/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/com/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/commons-cli/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/commons-codec/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/commons-io/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/commons-lang/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/io/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/javax/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/jaxen/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/jdom/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/junit/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/net/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/org/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? pom.xml.releaseBackup
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? release.properties
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline && git commit --verbose -F /tmp/maven-scm-479388662.commit pom.xml
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[INFO] Tagging release with the label knote-java-7.0.0...
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline && git tag -F /tmp/maven-scm-1086748042.commit knote-java-7.0.0
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline && git ls-files
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[INFO] Transforming 'knote'...
+[INFO] Not removing release POMs
+[INFO] Checking in modified POMs...
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline && git add -- pom.xml
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline && git rev-parse --show-toplevel
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline && git status --porcelain .
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/aopalliance/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/backport-util-concurrent/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/ch/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/classworlds/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/com/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/commons-cli/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/commons-codec/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/commons-io/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/commons-lang/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/io/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/javax/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/jaxen/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/jdom/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/junit/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/net/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? .m2/org/
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? pom.xml.releaseBackup
+[8mha:////4LMIAVxj/qoDOZbRKHRThVFbHO2tvrcB/rIHxbku5Xt/AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Ignoring unrecognized line: ?? release.properties
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline && git commit --verbose -F /tmp/maven-scm-1929920019.commit pom.xml
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[INFO] Release preparation complete.
+[INFO] 
+[8mha:////4J+wJhQIXZcA8IWntXW/qOz/6dNbaIKVPVN31zCQ2IVUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-release-plugin:2.5.3:perform (default-cli) @ knote-java ---
+[INFO] Performing a LOCAL checkout from scm:git:file:///var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[INFO] Checking out the project to perform the release ...
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target && git clone --branch knote-java-7.0.0 file:///var/lib/jenkins/workspace/Project03_CICD_Pipeline /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target
+[INFO] Executing: /bin/sh -c cd /tmp && git ls-remote file:///var/lib/jenkins/workspace/Project03_CICD_Pipeline
+[INFO] Working directory: /tmp
+[INFO] Executing: /bin/sh -c cd /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout && git ls-files
+[INFO] Working directory: /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout
+[INFO] Invoking perform goals in directory /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout
+[INFO] Executing goals 'deploy'...
+[INFO] Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b" 
+[INFO] [INFO] [jenkins-event-spy] Generate /var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b/maven-spy-20220119-131848-7943006644178400363620.log.tmp ...
+[INFO] [INFO] Scanning for projects...
+[INFO] [INFO] 
+[INFO] [INFO] -----------------------< io.learnk8s:knote-java >-----------------------
+[INFO] [INFO] Building knote 7.0.0
+[INFO] [INFO] --------------------------------[ jar ]---------------------------------
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-source-plugin/3.0.1/maven-source-plugin-3.0.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-source-plugin/3.0.1/maven-source-plugin-3.0.1.pom (5.7 kB at 33 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom (10 kB at 291 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-source-plugin/3.0.1/maven-source-plugin-3.0.1.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-source-plugin/3.0.1/maven-source-plugin-3.0.1.jar (31 kB at 898 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-javadoc-plugin/3.0.1/maven-javadoc-plugin-3.0.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-javadoc-plugin/3.0.1/maven-javadoc-plugin-3.0.1.pom (19 kB at 727 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-javadoc-plugin/3.0.1/maven-javadoc-plugin-3.0.1.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/plugins/maven-javadoc-plugin/3.0.1/maven-javadoc-plugin-3.0.1.jar (421 kB at 6.4 MB/s)
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ knote-java ---
+[INFO] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] [INFO] Copying 1 resource
+[INFO] [INFO] Copying 2 resources
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ knote-java ---
+[INFO] [INFO] Changes detected - recompiling the module!
+[INFO] [INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/classes
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ knote-java ---
+[INFO] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] [INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/src/test/resources
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ knote-java ---
+[INFO] [INFO] Changes detected - recompiling the module!
+[INFO] [INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/test-classes
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ knote-java ---
+[INFO] [INFO] 
+[INFO] [INFO] -------------------------------------------------------
+[INFO] [INFO]  T E S T S
+[INFO] [INFO] -------------------------------------------------------
+[INFO] [INFO] Running io.learnk8s.knote.KnoteJavaApplicationTests
+[INFO] 13:18:57.410 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class io.learnk8s.knote.KnoteJavaApplicationTests]
+[INFO] 13:18:57.424 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+[INFO] 13:18:57.447 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+[INFO] 13:18:57.513 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [io.learnk8s.knote.KnoteJavaApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+[INFO] 13:18:57.555 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [io.learnk8s.knote.KnoteJavaApplicationTests], using SpringBootContextLoader
+[INFO] 13:18:57.561 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: class path resource [io/learnk8s/knote/KnoteJavaApplicationTests-context.xml] does not exist
+[INFO] 13:18:57.562 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: class path resource [io/learnk8s/knote/KnoteJavaApplicationTestsContext.groovy] does not exist
+[INFO] 13:18:57.564 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO] 13:18:57.578 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [io.learnk8s.knote.KnoteJavaApplicationTests]: KnoteJavaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO] 13:18:57.765 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [io.learnk8s.knote.KnoteJavaApplicationTests]
+[INFO] 13:18:58.028 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/classes/io/learnk8s/knote/KnoteJavaApplication.class]
+[INFO] 13:18:58.037 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration io.learnk8s.knote.KnoteJavaApplication for test class io.learnk8s.knote.KnoteJavaApplicationTests
+[INFO] 13:18:58.209 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [io.learnk8s.knote.KnoteJavaApplicationTests]: using defaults.
+[INFO] 13:18:58.210 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO] 13:18:58.237 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5e0826e7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32eff876, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@8dbdac1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6e20b53a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71809907, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3ce1e309, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6aba2b86, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@158da8e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@74e52303, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@47af7f3d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7c729a55, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bb9a3ff]
+[INFO] 13:18:58.240 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+[INFO] 13:18:58.250 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+[INFO] 13:18:58.252 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+[INFO] 13:18:58.253 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+[INFO] 13:18:58.259 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+[INFO] 13:18:58.259 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+[INFO] 13:18:58.265 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@52bf72b5 testClass = KnoteJavaApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@37afeb11 testClass = KnoteJavaApplicationTests, locations = '{}', classes = '{class io.learnk8s.knote.KnoteJavaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1e965684, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b088d51, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@528931cf, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2173f6d9], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+[INFO] 13:18:58.267 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.learnk8s.knote.KnoteJavaApplicationTests]
+[INFO] 13:18:58.268 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.learnk8s.knote.KnoteJavaApplicationTests]
+[INFO] 13:18:58.301 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+[INFO] 
+[INFO]   .   ____          _            __ _ _
+[INFO]  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+[INFO] ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+[INFO]  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+[INFO]   '  |____| .__|_| |_|_| |_\__, | / / / /
+[INFO]  =========|_|==============|___/=/_/_/_/
+[INFO]  :: Spring Boot ::        (v2.1.6.RELEASE)
+[INFO] 
+[INFO] 2022-01-19 13:18:58.946  INFO 4129 --- [           main] i.l.knote.KnoteJavaApplicationTests      : Starting KnoteJavaApplicationTests on 66a459bff11c.mylabserver.com with PID 4129 (started by jenkins in /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout)
+[INFO] 2022-01-19 13:18:58.949  INFO 4129 --- [           main] i.l.knote.KnoteJavaApplicationTests      : No active profile set, falling back to default profiles: default
+[INFO] 2022-01-19 13:19:00.941  INFO 4129 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO] 2022-01-19 13:19:01.070  INFO 4129 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120ms. Found 1 repository interfaces.
+[INFO] 2022-01-19 13:19:02.750  INFO 4129 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO] 2022-01-19 13:19:02.856  INFO 4129 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+[INFO] 
+[INFO] com.mongodb.MongoSocketOpenException: Exception opening socket
+[INFO] 	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar:na]
+[INFO] 	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar:na]
+[INFO] 	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar:na]
+[INFO] 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+[INFO] Caused by: java.net.ConnectException: Connection refused (Connection refused)
+[INFO] 	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_221]
+[INFO] 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_221]
+[INFO] 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_221]
+[INFO] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_221]
+[INFO] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_221]
+[INFO] 	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_221]
+[INFO] 	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar:na]
+[INFO] 	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar:na]
+[INFO] 	... 3 common frames omitted
+[INFO] 
+[INFO] 2022-01-19 13:19:04.879  INFO 4129 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+[INFO] 2022-01-19 13:19:05.185  INFO 4129 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+[INFO] 2022-01-19 13:19:06.352  INFO 4129 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO] 2022-01-19 13:19:06.453  INFO 4129 --- [           main] i.l.knote.KnoteJavaApplicationTests      : Started KnoteJavaApplicationTests in 8.141 seconds (JVM running for 10.048)
+[INFO] [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.672 s - in io.learnk8s.knote.KnoteJavaApplicationTests
+[INFO] 2022-01-19 13:19:06.793  INFO 4129 --- [       Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] [INFO] 
+[INFO] [INFO] Results:
+[INFO] [INFO] 
+[INFO] [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] [INFO] 
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ knote-java ---
+[INFO] [INFO] Building jar: /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/knote-java-7.0.0.jar
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-source-plugin:3.0.1:jar-no-fork (attach-sources) @ knote-java ---
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.pom (4.3 kB at 40 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.pom (4.6 kB at 176 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.pom (5.3 kB at 63 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom (19 kB at 815 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom (4.9 kB at 273 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-compress/1.11/commons-compress-1.11.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-compress/1.11/commons-compress-1.11.pom (13 kB at 465 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/tukaani/xz/1.5/xz-1.5.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/tukaani/xz/1.5/xz-1.5.pom (1.9 kB at 71 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.pom (5.3 kB at 213 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.jar
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.jar (24 kB at 483 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/tukaani/xz/1.5/xz-1.5.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar (187 kB at 2.1 MB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar (426 kB at 3.8 MB/s)
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar (154 kB at 1.3 MB/s)
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar (86 kB at 452 kB/s)
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar (247 kB at 1.1 MB/s)
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/tukaani/xz/1.5/xz-1.5.jar (100 kB at 283 kB/s)
+[INFO] [INFO] Building jar: /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/knote-java-7.0.0-sources.jar
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-javadoc-plugin:3.0.1:jar (attach-javadocs) @ knote-java ---
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom (1.4 kB at 43 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom (9.6 kB at 536 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/maven-parent/10/maven-parent-10.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/maven-parent/10/maven-parent-10.pom (32 kB at 1.3 MB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-invoker/3.0.0/maven-invoker-3.0.0.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-invoker/3.0.0/maven-invoker-3.0.0.pom (5.0 kB at 186 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-common-artifact-filters/3.0.0/maven-common-artifact-filters-3.0.0.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-common-artifact-filters/3.0.0/maven-common-artifact-filters-3.0.0.pom (4.8 kB at 178 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.pom (7.6 kB at 423 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom (2.7 kB at 84 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom (12 kB at 358 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.7/doxia-sink-api-1.7.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.7/doxia-sink-api-1.7.pom (1.5 kB at 57 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia/1.7/doxia-1.7.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia/1.7/doxia-1.7.pom (15 kB at 847 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.7/doxia-logging-api-1.7.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.7/doxia-logging-api-1.7.pom (1.5 kB at 59 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom (2.3 kB at 108 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-site-renderer/1.7.4/doxia-site-renderer-1.7.4.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-site-renderer/1.7.4/doxia-site-renderer-1.7.4.pom (6.7 kB at 52 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-sitetools/1.7.4/doxia-sitetools-1.7.4.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-sitetools/1.7.4/doxia-sitetools-1.7.4.pom (14 kB at 852 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-core/1.7/doxia-core-1.7.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-core/1.7/doxia-core-1.7.pom (4.1 kB at 185 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.pom (7.5 kB at 468 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcomponents-client/4.0.2/httpcomponents-client-4.0.2.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcomponents-client/4.0.2/httpcomponents-client-4.0.2.pom (9.0 kB at 408 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/project/4.1/project-4.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/project/4.1/project-4.1.pom (16 kB at 683 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom (4.9 kB at 106 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom (9.4 kB at 492 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/project/4.0/project-4.0.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/project/4.0/project-4.0.pom (13 kB at 437 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom (18 kB at 967 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/5/commons-parent-5.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/5/commons-parent-5.pom (16 kB at 729 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-codec/commons-codec/1.3/commons-codec-1.3.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-codec/commons-codec/1.3/commons-codec-1.3.pom (6.1 kB at 84 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/xmlunit/xmlunit/1.5/xmlunit-1.5.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/xmlunit/xmlunit/1.5/xmlunit-1.5.pom (3.0 kB at 169 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-decoration-model/1.7.4/doxia-decoration-model-1.7.4.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-decoration-model/1.7.4/doxia-decoration-model-1.7.4.pom (3.4 kB at 179 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-skin-model/1.7.4/doxia-skin-model-1.7.4.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-skin-model/1.7.4/doxia-skin-model-1.7.4.pom (3.0 kB at 138 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-module-xhtml/1.7/doxia-module-xhtml-1.7.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-module-xhtml/1.7/doxia-module-xhtml-1.7.pom (1.6 kB at 82 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-modules/1.7/doxia-modules-1.7.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-modules/1.7/doxia-modules-1.7.pom (2.6 kB at 101 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.pom (1.1 kB at 50 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-components/1.1.12/plexus-components-1.1.12.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-components/1.1.12/plexus-components-1.1.12.pom (3.0 kB at 107 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom (1.9 kB at 100 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.pom (2.8 kB at 118 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-collections/commons-collections/3.1/commons-collections-3.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-collections/commons-collections/3.1/commons-collections-3.1.pom (6.1 kB at 304 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/velocity/velocity/1.7/velocity-1.7.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/velocity/velocity/1.7/velocity-1.7.pom (11 kB at 132 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom (13 kB at 463 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.pom (18 kB at 1.1 MB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom (357 B at 22 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom (866 B at 29 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-digester/commons-digester/1.8/commons-digester-1.8.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-digester/commons-digester/1.8/commons-digester-1.8.pom (7.0 kB at 242 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.1/commons-logging-1.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.1/commons-logging-1.1.pom (6.2 kB at 294 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/log4j/log4j/1.2.12/log4j-1.2.12.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/log4j/log4j/1.2.12/log4j-1.2.12.pom (145 B at 3.0 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/logkit/logkit/1.0.1/logkit-1.0.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/logkit/logkit/1.0.1/logkit-1.0.1.pom (147 B at 9.8 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom (167 B at 6.2 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/javax/servlet/servlet-api/2.3/servlet-api-2.3.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/javax/servlet/servlet-api/2.3/servlet-api-2.3.pom (156 B at 1.1 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-chain/commons-chain/1.1/commons-chain-1.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-chain/commons-chain/1.1/commons-chain-1.1.pom (6.0 kB at 376 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-digester/commons-digester/1.6/commons-digester-1.6.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-digester/commons-digester/1.6/commons-digester-1.6.pom (974 B at 42 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-beanutils/commons-beanutils/1.6/commons-beanutils-1.6.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-beanutils/commons-beanutils/1.6/commons-beanutils-1.6.pom (2.3 kB at 154 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.0/commons-logging-1.0.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.0/commons-logging-1.0.pom (163 B at 6.5 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-collections/commons-collections/2.0/commons-collections-2.0.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-collections/commons-collections/2.0/commons-collections-2.0.pom (171 B at 6.6 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-collections/commons-collections/2.1/commons-collections-2.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-collections/commons-collections/2.1/commons-collections-2.1.pom (3.3 kB at 257 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom (2.2 kB at 68 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-collections/commons-collections/3.2/commons-collections-3.2.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-collections/commons-collections/3.2/commons-collections-3.2.pom (11 kB at 345 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.pom (9.0 kB at 531 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom (5.3 kB at 329 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/dom4j/dom4j/1.1/dom4j-1.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/dom4j/dom4j/1.1/dom4j-1.1.pom (142 B at 7.1 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/oro/oro/2.0.8/oro-2.0.8.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/oro/oro/2.0.8/oro-2.0.8.pom (140 B at 4.8 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/sslext/sslext/1.2-0/sslext-1.2-0.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/sslext/sslext/1.2-0/sslext-1.2-0.pom (653 B at 27 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.pom (4.3 kB at 287 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-parent/1.3.8/struts-parent-1.3.8.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-parent/1.3.8/struts-parent-1.3.8.pom (9.8 kB at 173 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-master/4/struts-master-4.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-master/4/struts-master-4.pom (12 kB at 359 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/apache/2/apache-2.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/apache/2/apache-2.pom (3.4 kB at 110 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/antlr/antlr/2.7.2/antlr-2.7.2.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/antlr/antlr/2.7.2/antlr-2.7.2.pom (145 B at 9.1 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.pom (3.1 kB at 19 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.pom (2.9 kB at 194 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/velocity/velocity/1.6.2/velocity-1.6.2.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/velocity/velocity/1.6.2/velocity-1.6.2.pom (11 kB at 531 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom (23 kB at 1.3 MB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/41/commons-parent-41.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/41/commons-parent-41.pom (65 kB at 2.5 MB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom (6.4 kB at 336 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcomponents-client/4.5.2/httpcomponents-client-4.5.2.pom (16 kB at 560 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/project/7/project-7.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/project/7/project-7.pom (27 kB at 257 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom (5.5 kB at 153 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom (13 kB at 110 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.2/commons-logging-1.2.pom (19 kB at 194 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/34/commons-parent-34.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/34/commons-parent-34.pom (56 kB at 2.2 MB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-codec/commons-codec/1.9/commons-codec-1.9.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-codec/commons-codec/1.9/commons-codec-1.9.pom (12 kB at 550 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/32/commons-parent-32.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-parent/32/commons-parent-32.pom (53 kB at 1.7 MB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.pom (16 kB at 223 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-java/0.9.8/plexus-java-0.9.8.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-java/0.9.8/plexus-java-0.9.8.pom (2.4 kB at 98 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-languages/0.9.8/plexus-languages-0.9.8.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-languages/0.9.8/plexus-languages-0.9.8.pom (2.2 kB at 157 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/ow2/asm/asm/6.1.1/asm-6.1.1.pom (2.9 kB at 95 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-utils/1.4/plexus-utils-1.4.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-utils/1.4/plexus-utils-1.4.pom (1.2 kB at 68 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus/1.0.9/plexus-1.0.9.pom
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus/1.0.9/plexus-1.0.9.pom (7.7 kB at 274 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-invoker/3.0.0/maven-invoker-3.0.0.jar
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-common-artifact-filters/3.0.0/maven-common-artifact-filters-3.0.0.jar
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.jar
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.7/doxia-sink-api-1.7.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-sink-api/1.7/doxia-sink-api-1.7.jar (11 kB at 335 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.7/doxia-logging-api-1.7.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.jar (123 kB at 2.5 MB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-site-renderer/1.7.4/doxia-site-renderer-1.7.4.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-common-artifact-filters/3.0.0/maven-common-artifact-filters-3.0.0.jar (57 kB at 1.1 MB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-core/1.7/doxia-core-1.7.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-logging-api/1.7/doxia-logging-api-1.7.jar (12 kB at 207 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/xmlunit/xmlunit/1.5/xmlunit-1.5.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar (26 kB at 348 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-decoration-model/1.7.4/doxia-decoration-model-1.7.4.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/xmlunit/xmlunit/1.5/xmlunit-1.5.jar (98 kB at 328 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-skin-model/1.7.4/doxia-skin-model-1.7.4.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-site-renderer/1.7.4/doxia-site-renderer-1.7.4.jar (64 kB at 215 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-module-xhtml/1.7/doxia-module-xhtml-1.7.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-core/1.7/doxia-core-1.7.jar (167 kB at 557 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/shared/maven-invoker/3.0.0/maven-invoker-3.0.0.jar (33 kB at 104 kB/s)
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-decoration-model/1.7.4/doxia-decoration-model-1.7.4.jar (61 kB at 197 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.jar
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-skin-model/1.7.4/doxia-skin-model-1.7.4.jar (16 kB at 48 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/velocity/velocity/1.7/velocity-1.7.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar (11 kB at 31 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar (347 kB at 924 kB/s)
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.jar (237 kB at 625 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-digester/commons-digester/1.8/commons-digester-1.8.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/doxia/doxia-module-xhtml/1.7/doxia-module-xhtml-1.7.jar (17 kB at 43 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-chain/commons-chain/1.1/commons-chain-1.1.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/velocity/velocity/1.7/velocity-1.7.jar (450 kB at 1.1 MB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-digester/commons-digester/1.8/commons-digester-1.8.jar (144 kB at 333 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/dom4j/dom4j/1.1/dom4j-1.1.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-chain/commons-chain/1.1/commons-chain-1.1.jar (90 kB at 203 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/oro/oro/2.0.8/oro-2.0.8.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar (139 kB at 312 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/sslext/sslext/1.2-0/sslext-1.2-0.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar (189 kB at 418 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar (8.1 kB at 18 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/antlr/antlr/2.7.2/antlr-2.7.2.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/sslext/sslext/1.2-0/sslext-1.2-0.jar (26 kB at 55 kB/s)
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/oro/oro/2.0.8/oro-2.0.8.jar (65 kB at 136 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.jar
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/antlr/antlr/2.7.2/antlr-2.7.2.jar (358 kB at 731 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.jar (329 kB at 663 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.jar (252 kB at 493 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.jar (120 kB at 231 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar (53 kB at 99 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar (737 kB at 1.3 MB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar (327 kB at 569 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar (575 kB at 990 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-java/0.9.8/plexus-java-0.9.8.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/dom4j/dom4j/1.1/dom4j-1.1.jar (457 kB at 784 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/commons-logging/commons-logging/1.2/commons-logging-1.2.jar (62 kB at 102 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-compress/1.16.1/commons-compress-1.16.1.jar
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/codehaus/plexus/plexus-java/0.9.8/plexus-java-0.9.8.jar (35 kB at 57 kB/s)
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/ow2/asm/asm/6.1.1/asm-6.1.1.jar (108 kB at 172 kB/s)
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.jar (315 kB at 498 kB/s)
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-compress/1.16.1/commons-compress-1.16.1.jar (560 kB at 866 kB/s)
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/maven-public/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar (480 kB at 705 kB/s)
+[INFO] [INFO] 
+[INFO] Loading source files for package io.learnk8s.knote...
+[INFO] Constructing Javadoc information...
+[INFO] Standard Doclet version 1.8.0_221
+[INFO] Building tree for all the packages and classes...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/io/learnk8s/knote/KnoteJavaApplication.html...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/io/learnk8s/knote/package-frame.html...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/io/learnk8s/knote/package-summary.html...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/io/learnk8s/knote/package-tree.html...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/constant-values.html...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/io/learnk8s/knote/class-use/KnoteJavaApplication.html...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/io/learnk8s/knote/package-use.html...
+[INFO] Building index for all the packages and classes...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/overview-tree.html...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/index-all.html...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/deprecated-list.html...
+[INFO] Building index for all classes...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/allclasses-frame.html...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/allclasses-noframe.html...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/index.html...
+[INFO] Generating /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/apidocs/help-doc.html...
+[INFO] [WARNING] Javadoc Warnings
+[INFO] [WARNING] Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b"
+[INFO] [INFO] Building jar: /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/knote-java-7.0.0-javadoc.jar
+[INFO] [INFO] 
+[INFO] [INFO] --- spring-boot-maven-plugin:2.1.6.RELEASE:repackage (repackage) @ knote-java ---
+[INFO] [INFO] Replacing main artifact with repackaged archive
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-install-plugin:2.5.2:install (default-install) @ knote-java ---
+[INFO] [INFO] Installing /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/knote-java-7.0.0.jar to /var/lib/jenkins/workspace/Project03_CICD_Pipeline/.m2/io/learnk8s/knote-java/7.0.0/knote-java-7.0.0.jar
+[INFO] [INFO] Installing /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/pom.xml to /var/lib/jenkins/workspace/Project03_CICD_Pipeline/.m2/io/learnk8s/knote-java/7.0.0/knote-java-7.0.0.pom
+[INFO] [INFO] Installing /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/knote-java-7.0.0-sources.jar to /var/lib/jenkins/workspace/Project03_CICD_Pipeline/.m2/io/learnk8s/knote-java/7.0.0/knote-java-7.0.0-sources.jar
+[INFO] [INFO] Installing /var/lib/jenkins/workspace/Project03_CICD_Pipeline/target/checkout/target/knote-java-7.0.0-javadoc.jar to /var/lib/jenkins/workspace/Project03_CICD_Pipeline/.m2/io/learnk8s/knote-java/7.0.0/knote-java-7.0.0-javadoc.jar
+[INFO] [INFO] 
+[INFO] [INFO] --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ knote-java ---
+[INFO] [INFO] Uploading to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-release/io/learnk8s/knote-java/7.0.0/knote-java-7.0.0.jar
+[INFO] [INFO] Uploaded to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-release/io/learnk8s/knote-java/7.0.0/knote-java-7.0.0.jar (27 MB at 22 MB/s)
+[INFO] [INFO] Uploading to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-release/io/learnk8s/knote-java/7.0.0/knote-java-7.0.0.pom
+[INFO] [INFO] Uploaded to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-release/io/learnk8s/knote-java/7.0.0/knote-java-7.0.0.pom (3.3 kB at 33 kB/s)
+[INFO] [INFO] Downloading from nexus-premise: http://172.31.98.182:8081/repository/knoteapp-release/io/learnk8s/knote-java/maven-metadata.xml
+[INFO] [INFO] Downloaded from nexus-premise: http://172.31.98.182:8081/repository/knoteapp-release/io/learnk8s/knote-java/maven-metadata.xml (301 B at 9.1 kB/s)
+[INFO] [INFO] Uploading to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-release/io/learnk8s/knote-java/maven-metadata.xml
+[INFO] [INFO] Uploaded to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-release/io/learnk8s/knote-java/maven-metadata.xml (332 B at 3.5 kB/s)
+[INFO] [INFO] Uploading to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-release/io/learnk8s/knote-java/7.0.0/knote-java-7.0.0-sources.jar
+[INFO] [INFO] Uploaded to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-release/io/learnk8s/knote-java/7.0.0/knote-java-7.0.0-sources.jar (19 kB at 281 kB/s)
+[INFO] [INFO] Uploading to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-release/io/learnk8s/knote-java/7.0.0/knote-java-7.0.0-javadoc.jar
+[INFO] [INFO] Uploaded to nexus-premise: http://172.31.98.182:8081/repository/knoteapp-release/io/learnk8s/knote-java/7.0.0/knote-java-7.0.0-javadoc.jar (23 kB at 321 kB/s)
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] BUILD SUCCESS
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] Total time:  28.676 s
+[INFO] [INFO] Finished at: 2022-01-19T13:19:17Z
+[INFO] [INFO] ------------------------------------------------------------------------
+[INFO] [INFO] [jenkins-event-spy] Generated /var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b/maven-spy-20220119-131848-7943006644178400363620.log
+[INFO] Cleaning up after release...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.431 s
+[INFO] Finished at: 2022-01-19T13:19:17Z
+[INFO] ------------------------------------------------------------------------
+[INFO] [jenkins-event-spy] Generated /var/lib/jenkins/workspace/Project03_CICD_Pipeline@tmp/withMavena937029b/maven-spy-20220119-131837-476400468633972605830.log
+[8mha:////4PXGy1EyS5PvkhKyCGdtfAn9Zc7kcL/npNLFAvZVqIEUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF2jKA0vgAAAA==[0m[Pipeline] }
+[withMaven] artifactsPublisher - Archive artifact pom.xml under io/learnk8s/knote-java/7.0.0-SNAPSHOT/knote-java-7.0.0-SNAPSHOT.pom
+[withMaven] Jenkins [8mha:////4BHMjIMqtEQulnsSyCsqK8onooTlt6HxVLSXHIZEJde8AAAAvB+LCAAAAAAAAP9djMEJwjAUQL8VHUBv4gbF5uZBKR5EsFqKUBcIbUjThJ+QpNqu4Rp6cQjHcQeV3nyX907v8YaRszCvmtJpjAqNTisW7TvDrBIoM+3ZMr4/45t5BRAkMFYMua9SGDZWeZikNb1QoihyknsrkK9bC7O/3bb3bwY9gwCgNd+YethU3hu3IuQqpIhqhlKgWxQi0paTUjijaEcOu+yYZDk5UyfDvKCIzIYn1XCBHwby8vjEAAAA[0mTask Scanner Plugin not found, don't display results of source code scanning for 'TODO' and 'FIXME' in pipeline screen.
+[withMaven] Publishers: Pipeline Graph Publisher: 11 ms, Generated Artifacts Publisher: 16 ms, Open Task Scanner Publisher: 2 ms
+[withMaven] artifactsPublisher - Archive artifact pom.xml under io/learnk8s/knote-java/7.0.0/knote-java-7.0.0.pom
+[withMaven] Jenkins [8mha:////4BHMjIMqtEQulnsSyCsqK8onooTlt6HxVLSXHIZEJde8AAAAvB+LCAAAAAAAAP9djMEJwjAUQL8VHUBv4gbF5uZBKR5EsFqKUBcIbUjThJ+QpNqu4Rp6cQjHcQeV3nyX907v8YaRszCvmtJpjAqNTisW7TvDrBIoM+3ZMr4/45t5BRAkMFYMua9SGDZWeZikNb1QoihyknsrkK9bC7O/3bb3bwY9gwCgNd+YethU3hu3IuQqpIhqhlKgWxQi0paTUjijaEcOu+yYZDk5UyfDvKCIzIYn1XCBHwby8vjEAAAA[0mTask Scanner Plugin not found, don't display results of source code scanning for 'TODO' and 'FIXME' in pipeline screen.
+[withMaven] Publishers: Pipeline Graph Publisher: 6 ms, Generated Artifacts Publisher: 26 ms, Junit Publisher: 1 ms, Open Task Scanner Publisher: 2 ms
+[withMaven] artifactsPublisher - Archive artifact target/checkout/pom.xml under io/learnk8s/knote-java/7.0.0/knote-java-7.0.0.pom
+[withMaven] artifactsPublisher - Archive artifact target/checkout/target/knote-java-7.0.0.jar under io/learnk8s/knote-java/7.0.0/knote-java-7.0.0.jar
+[withMaven] artifactsPublisher - Archive artifact target/checkout/target/knote-java-7.0.0-sources.jar under io/learnk8s/knote-java/7.0.0/knote-java-7.0.0-sources.jar
+[withMaven] artifactsPublisher - Archive artifact target/checkout/target/knote-java-7.0.0-javadoc.jar under io/learnk8s/knote-java/7.0.0/knote-java-7.0.0-javadoc.jar
+[withMaven] junitPublisher - Archive test results for Maven artifact io.learnk8s:knote-java:jar:7.0.0 generated by maven-surefire-plugin:test (default-test): target/checkout/target/surefire-reports/*.xml
+[withMaven] junitPublisher - Jenkins [8mha:////4Nm5gXETwH6OP1OvXcuumodfAejiqmKXHKvUIxDNgjg+AAAAwR+LCAAAAAAAAP9djEsKwjAUAJ8VPYArEW9QbHYuFBeigj+KIB4g1JC+Nr6E5NXPNbyGbjyEx/EOKu6czcxq7i9oBA/dvNoHS0lmKVijkvnFKW+QytSy6o9uj9HVPSOIFtA0ijTna6hX3jC01oU8SmEkabFlj6SHZw+dv93k5+8MftQigLP7RJthmjO7MBDihCUmhaISKfQyTKzXYo/BGXkRy1m6WqRbsdwRcjxmlll+UMQh3phKI70B4ncifskAAAA=[0mJUnit Attachments Plugin not found, can't publish test attachments.Recording test results
+[withMaven] Jenkins [8mha:////4BHMjIMqtEQulnsSyCsqK8onooTlt6HxVLSXHIZEJde8AAAAvB+LCAAAAAAAAP9djMEJwjAUQL8VHUBv4gbF5uZBKR5EsFqKUBcIbUjThJ+QpNqu4Rp6cQjHcQeV3nyX907v8YaRszCvmtJpjAqNTisW7TvDrBIoM+3ZMr4/45t5BRAkMFYMua9SGDZWeZikNb1QoihyknsrkK9bC7O/3bb3bwY9gwCgNd+YethU3hu3IuQqpIhqhlKgWxQi0paTUjijaEcOu+yYZDk5UyfDvKCIzIYn1XCBHwby8vjEAAAA[0mTask Scanner Plugin not found, don't display results of source code scanning for 'TODO' and 'FIXME' in pipeline screen.
+[withMaven] Publishers: Pipeline Graph Publisher: 29 ms, Generated Artifacts Publisher: 294 ms, Junit Publisher: 27 ms, JGiven Publisher: 2 ms, Open Task Scanner Publisher: 2 ms
+[8mha:////4MywGzWMsLpmsw58jBxL8ooAmHkcU4iDLU29YjwpHL14AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGlIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QFCQkNvvgAAAA==[0m[Pipeline] // withMaven
+[8mha:////4HV9aZREOctkFl8RF60soFGmtMnDHBLi02F0VL8Ozw4MAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRKEKBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF52Oeq6w96ANCevgAAAA==[0m[Pipeline] }
+[8mha:////4CI2s65EkF/qn83E8DxPrzrPTCCd4JdgJS1XkcknWGXRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw9lgoXMvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4FNwqnNxgqz6nWpdlXYS2+Uzfv7OlWxYoJwfAAlxufg+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSRFAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QFLgoemvgAAAA==[0m[Pipeline] }
+[8mha:////4PCyQU+ArjMsxihj2SEhpLyFSkDB9MVOsepvZbysLZ+5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w9NxL/zvgAAAA==[0m[Pipeline] // script
+[8mha:////4DK3NIPUGjL32VRCA7xScYVI3DMniOOoA1Js2L8QvHtWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRKEKBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF5qHPV+w91hiwCvgAAAA==[0m[Pipeline] }
+[8mha:////4AOizP0oaWfUlu7S+VF4kbqObQO7fEdLpLnghZU25qReAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGlIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrOtdh/wFqBHlQvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Ov/UB8XrWeqmLBYfes4YeqWwPnDmjgLtbKv8KPIv9q1AAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8ZFQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7m2uw/fcGYUvgAAAA==[0m[Pipeline] }
+[8mha:////4Jkqmc3ixAKIoEg+QXjOJDXMM1mZS+EvAq0p4+ooTQWBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSRQghqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QHA8jNGvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JWy5gHSkfPDTqfmBxM8J6fYwNOcUHw2c1772J1RoloeAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUh22u3f4DJkU12L4AAAA=[0m[Pipeline] }
+[8mha:////4B1AQDvdyyknshsFL/ttJx8Sz8kWwOzwQnNy7SaU5LldAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21238AFaZuZL4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4MvERZZdO3GDf0SDsdSo4UmI7MWu7jkzUVezEu/Eji5uAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUh12u7f4D7rfQvr4AAAA=[0m[Pipeline] }
+[8mha:////4LfaR79VFzPuATXBAf4IaeMfchS1fBwdktcZjoqk5tt+AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu13X8A3VSLAr4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4HuhThofpvb4Hn+QjM/X+BCBs1EpgL6iqaS8k64R64qoAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM+13X0AxvHqgb4AAAA=[0m[Pipeline] }
+[8mha:////4PGbE8PW/LsyPZGpRFQwxmu2jRRKrz7eO/kpWHAFcUVsAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUh32u7e4D9RKxPb4AAAA=[0m[Pipeline] // withCredentials
+[8mha:////4OznECSD4O4zq4FgN+fXhYAgQFb0Ps6HoD/5AUJpA4ZrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiNAgJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w/hMSwivgAAAA==[0m[Pipeline] }
+[8mha:////4AANQETXScR49MewV7qSoYVrDGjBq5wj1BX4CiLTKLwIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDPtdu+wHS0neevgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4BjbJAh/WApI26xUFgtbO9GZs1a9DJHlNIilGG6oJN3YAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsDiTGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HjDE6xb0AAAA=[0m[Pipeline] }
+[8mha:////4Ag35uB4iS3jhxe2+lB4vQnLYnlB9SFvQv/nOc1ZZX2HAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpaECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPn40+Zr0AAAA=[0m[Pipeline] // node
+[8mha:////4JyTfIe+nUx2rl3F8Aq2YEaGF78zepfQyEtFyzNXd2gpAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBdAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcB3Qx1170AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

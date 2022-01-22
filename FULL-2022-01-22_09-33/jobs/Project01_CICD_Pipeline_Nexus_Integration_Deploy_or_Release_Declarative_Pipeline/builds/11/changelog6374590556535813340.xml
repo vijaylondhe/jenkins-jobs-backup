@@ -1,0 +1,20 @@
+commit cf9c2d074e3ba576aca49b90d574a94645e65c28
+tree f7a296785b3cfd9e29d8f09c3fec4ed966664d6e
+parent 7065467c73c3ba963f2ead7bfaf8e04d0ed6a9d7
+author vijaylondhe <vijay.londhe815@gmail.com> 2022-01-18 18:41:08 +0530
+committer vijaylondhe <vijay.londhe815@gmail.com> 2022-01-18 18:41:08 +0530
+
+    updated option to discard builds1
+
+
+:100644 100644 59e4b659d8bc88113b5677e0a9b483479079cac0 6da1c53ce3ed8fb7cf08beadeef8398c613e6e8c M	Jenkinsfile
+commit 7065467c73c3ba963f2ead7bfaf8e04d0ed6a9d7
+tree 887371c7e3aeed36b57013987db0080c13259af6
+parent c96b2d652bb6f7f5106fad97aa636f2b3fb0799a
+author vijaylondhe <vijay.londhe815@gmail.com> 2022-01-18 18:37:08 +0530
+committer vijaylondhe <vijay.londhe815@gmail.com> 2022-01-18 18:37:08 +0530
+
+    updated option to discard builds
+
+
+:100644 100644 af61d1f6c3b6824a898cce7b3630661b47b08549 59e4b659d8bc88113b5677e0a9b483479079cac0 M	Jenkinsfile

@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.configfiles.GlobalConfigFiles plugin="config-file-provider@3.8.2">
+  <configs class="sorted-set">
+    <comparator class="org.jenkinsci.plugins.configfiles.ConfigByIdComparator"/>
+    <org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig>
+      <id>42ad93de-534d-4c99-bdf4-4c1eb93c5c92</id>
+      <name>knoteapp-settings-maven</name>
+      <comment>Maven Setting file for knote application</comment>
+      <content>&lt;settings&gt;
+  &lt;localRepository&gt;.m2&lt;/localRepository&gt;
+  &lt;servers&gt;
+    &lt;server&gt;
+      &lt;id&gt;nexus-premise&lt;/id&gt;
+      &lt;!-- &lt;username&gt;${env.NEXUS_CREDS_USR}&lt;/username&gt;
+      &lt;password&gt;${env.NEXUS_CREDS_PSW}&lt;/password&gt; --&gt;
+      &lt;username&gt;${server.username}&lt;/username&gt;
+      &lt;password&gt;${server.password}&lt;/password&gt;
+    &lt;/server&gt;
+  &lt;/servers&gt;
+
+  &lt;mirrors&gt;
+    &lt;mirror&gt;
+      &lt;id&gt;nexus-premise&lt;/id&gt;
+      &lt;!-- &lt;name&gt;Nexus On-Premise&lt;/name&gt; --&gt;
+      &lt;url&gt;http://172.31.98.182:8081/repository/maven-public/&lt;/url&gt;
+      &lt;mirrorOf&gt;*&lt;/mirrorOf&gt;
+    &lt;/mirror&gt;
+  &lt;/mirrors&gt;
+&lt;/settings&gt;</content>
+      <providerId>org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig</providerId>
+      <serverCredentialMappings/>
+      <isReplaceAll>true</isReplaceAll>
+    </org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig>
+    <org.jenkinsci.plugins.configfiles.properties.PropertiesConfig>
+      <id>bc0af70a-5d8c-4d57-ac4e-5c8a4b011c8f</id>
+      <name>NexusCredentials</name>
+      <comment>Nexus Credentials</comment>
+      <content>USERNAME=admin
+PASSWORD=pass@123</content>
+      <providerId>org.jenkinsci.plugins.configfiles.properties.PropertiesConfig</providerId>
+      <propertiesCredentialMappings/>
+      <isReplaceAll>true</isReplaceAll>
+    </org.jenkinsci.plugins.configfiles.properties.PropertiesConfig>
+  </configs>
+</org.jenkinsci.plugins.configfiles.GlobalConfigFiles>

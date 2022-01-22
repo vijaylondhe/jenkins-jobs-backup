@@ -1,0 +1,110 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@3.16">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>MVN_RELEASE_VERSION</name>
+          <value>4.0.0</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>MVN_DEV_VERSION</name>
+          <value>4.0.1-SNAPSHOT</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>MVN_ISDRYRUN</name>
+          <value>false</value>
+        </hudson.model.BooleanParameterValue>
+      </parameters>
+      <parameterDefinitionNames class="empty-list"/>
+    </hudson.model.ParametersAction>
+    <org.jvnet.hudson.plugins.m2release.M2ReleaseArgumentsAction plugin="m2release@0.16.2">
+      <releaseVersion>4.0.0</releaseVersion>
+      <developmentVersion>4.0.1-SNAPSHOT</developmentVersion>
+      <closeNexusStage>false</closeNexusStage>
+      <dryRun>false</dryRun>
+    </org.jvnet.hudson.plugins.m2release.M2ReleaseArgumentsAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <org.jvnet.hudson.plugins.m2release.ReleaseCause plugin="m2release@0.16.2">
+            <userId>admin</userId>
+          </org.jvnet.hudson.plugins.m2release.ReleaseCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1074.v60e6c29b_b_44b_">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <org.jenkinsci.plugins.envinject.EnvInjectPluginAction plugin="envinject@2.4.0"/>
+    <hudson.plugins.git.util.BuildData plugin="git@4.10.2">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.0">
+              <sha1>c64e3fff05be009a026f5cd8887a1ed7d68c9b06</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>2</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/vijaylondhe/mavenreleaseprod.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <org.jvnet.hudson.plugins.m2release.M2ReleaseArgumentInterceptorAction plugin="m2release@0.16.2"/>
+    <org.jvnet.hudson.plugins.m2release.M2ReleaseBadgeAction plugin="m2release@0.16.2"/>
+    <org.jenkinsci.plugins.envinject.EnvInjectBuilderContributionAction plugin="envinject@2.4.0"/>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>org.springframework.boot:spring-boot-dependencies:spring-boot-dependencies-2.1.6.RELEASE.pom</string>
+          <string>db0f0d53d06758848d344b9652aaa4e3</string>
+        </entry>
+        <entry>
+          <string>io.learnk8s:knote-java:pom.xml</string>
+          <string>f31d9d6e721523a788c6f2f2e1a28f42</string>
+        </entry>
+        <entry>
+          <string>org.springframework.boot:spring-boot-starter-parent:spring-boot-starter-parent-2.1.6.RELEASE.pom</string>
+          <string>cd806904a8253c696dea0bbe98f035e6</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>2</queueId>
+  <timestamp>1642586844918</timestamp>
+  <startTime>1642586844924</startTime>
+  <result>SUCCESS</result>
+  <duration>129634</duration>
+  <charset>UTF-8</charset>
+  <keepLog>true</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/Project02_CICD_Pipeline</workspace>
+  <hudsonVersion>2.319.2</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.10.2">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+  <mavenVersionUsed>3.8.4</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

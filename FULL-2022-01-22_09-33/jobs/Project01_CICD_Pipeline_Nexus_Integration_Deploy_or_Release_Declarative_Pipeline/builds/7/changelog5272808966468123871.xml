@@ -1,0 +1,21 @@
+commit d8c1fea01684c09b8ba2c36883101362d939c81f
+tree 2019ed9466e5072ed9d50c5c4c154b3240e9823e
+parent f8da4dc2b67933de2a66924cd511481f16a53d50
+author vijaylondhe <vijay.londhe815@gmail.com> 2022-01-18 17:57:33 +0530
+committer vijaylondhe <vijay.londhe815@gmail.com> 2022-01-18 17:57:33 +0530
+
+    updated jenkinsfile for double quote
+
+
+:100644 100644 0e768b153b6991cfaa828798f9e5b024d86e5aa0 c6dc550022cb9622d6b3aec914f8f1081c090d44 M	Jenkinsfile
+commit f8da4dc2b67933de2a66924cd511481f16a53d50
+tree b53c880e6eb4d99eee02a1c1ee55b638e111a4b6
+parent ccd96b87eea6f76669962fb85d6df69249afc1e0
+author vijaylondhe <vijay.londhe815@gmail.com> 2022-01-18 17:56:18 +0530
+committer vijaylondhe <vijay.londhe815@gmail.com> 2022-01-18 17:56:18 +0530
+
+    updated jenkinsfile and pom.xml file
+
+
+:100644 100644 7536f4b76ddf3336130c18962488471c95b05261 0e768b153b6991cfaa828798f9e5b024d86e5aa0 M	Jenkinsfile
+:100644 100644 7509836e9e16f9a4df290d9a0cafbd64e408ebad d65329e8752678d91e78473f4fa4d1b60aa147a3 M	pom.xml

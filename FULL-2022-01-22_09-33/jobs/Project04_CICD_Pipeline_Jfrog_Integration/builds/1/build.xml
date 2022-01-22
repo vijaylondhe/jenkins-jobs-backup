@@ -1,0 +1,101 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@3.16">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.envinject.EnvInjectPluginAction plugin="envinject@2.4.0"/>
+    <hudson.plugins.git.util.BuildData plugin="git@4.10.2">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.0">
+              <sha1>7dae4f911e54d01909ef7a5738e3d13b7bfe1218</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/vijaylondhe/secondwebapplication.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <org.jfrog.hudson.BuildInfoResultAction plugin="artifactory@3.15.2">
+      <publishedBuildsDetails class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jfrog.hudson.PublishedBuildDetails>
+          <artifactoryUrl>http://172.31.111.206:8082/artifactory</artifactoryUrl>
+          <buildName>Project04_CICD_Pipeline</buildName>
+          <buildNumber>1</buildNumber>
+          <platformUrl></platformUrl>
+          <startedTimeStamp></startedTimeStamp>
+          <project></project>
+        </org.jfrog.hudson.PublishedBuildDetails>
+      </publishedBuildsDetails>
+      <build class="hudson.maven.MavenModuleSetBuild" reference="../../.."/>
+    </org.jfrog.hudson.BuildInfoResultAction>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>javax.servlet:servlet-api-2.5.jar</string>
+          <string>69ca51af4e9a67a1027a7f95b52c3e8f</string>
+        </entry>
+        <entry>
+          <string>com.msedcl:secondwebapplication-0.0.5-SNAPSHOT.war</string>
+          <string>abc90e9624048c4af4026f80bcac967e</string>
+        </entry>
+        <entry>
+          <string>junit:junit-4.11.jar</string>
+          <string>3c42be5ea7cbf3635716abbb429cb90d</string>
+        </entry>
+        <entry>
+          <string>org.hamcrest:hamcrest-core-1.3.jar</string>
+          <string>6393363b47ddcbba82321110c3e07519</string>
+        </entry>
+        <entry>
+          <string>com.msedcl:secondwebapplication:pom.xml</string>
+          <string>1ad40f467b1d07f6c584e859748f0467</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>9</queueId>
+  <timestamp>1642842804397</timestamp>
+  <startTime>1642842804425</startTime>
+  <result>SUCCESS</result>
+  <duration>48724</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/Project04_CICD_Pipeline</workspace>
+  <hudsonVersion>2.319.2</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.10.2">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+  <mavenVersionUsed>3.8.4</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>
